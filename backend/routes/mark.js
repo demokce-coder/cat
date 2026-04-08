@@ -211,5 +211,18 @@ router.get('/stats', async (req, res) => {
         res.status(500).json({ success: false, message: 'Server error fetching stats', error: err.message });
     }
 });
+// Inside router.post('/bulk-save', ...)
+} else {
+    sectionDoc.subjects = subjects;
+    sectionDoc.scores = sanitizedScores;
+    sectionDoc.subjectDates = subjectDates; 
+    sectionDoc.updatedAt = Date.now();
+    
+    // CRITICAL: Force Mongoose to notice changes
+    sectionDoc.markModified('scores');
+    sectionDoc.markModified('subjectDates');
+}
+await sectionDoc.save();
+
 
 export default router;
