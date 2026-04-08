@@ -30,6 +30,34 @@ app.use('/api/timetables', timetableRoutes);
 // Health check
 app.get('/health', (req, res) => res.json({ status: 'OK', date: new Date() }));
 
+// Debug Database & Migration Status
+app.get('/api/debug-db', async (req, res) => {
+    try {
+        const Student = (await import('./models/Student.js')).default;
+        const Subject = (await import('./models/Subject.js')).default;
+        const SectionMark = (await import('./models/SectionMark.js')).default;
+
+        const stats = {
+            dbConnected: mongoose.connection.readyState === 1,
+            envHasMongoUri: !!process.env.MONGODB_URI,
+            dbName: mongoose.connection.name,
+            fileCheck: {
+                rootDbJson: fs.existsSync('./db.json'),
+                backendDbJson: fs.existsSync('./backend/db.json'),
+                backupsFound: fs.readdirSync('.').filter(f => f.includes('db.json.backup')).length
+            },
+            counts: {
+                students: await Student.countDocuments(),
+                subjects: await Subject.countDocuments(),
+                marks: await SectionMark.countDocuments()
+            }
+        };
+        res.json(stats);
+    } catch (e) {
+        res.status(500).json({ error: e.message, stack: e.stack });
+    }
+});
+
 // Production Frontend Serving
 if (process.env.NODE_ENV === 'production') {
     const __dirname = path.resolve();
