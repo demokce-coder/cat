@@ -826,5 +826,20 @@ const Students = () => {
         </div>
     );
 };
+const fetchSectionData = async () => {
+    const config = { 
+        academicYear: selectedAcademicYear, 
+        year: selectedYear, 
+        department: dept, 
+        section, 
+        catType 
+    };
+    const marksRes = await api.get('/marks/section', { params: config });
+    const data = marksRes.data.data;
+    if (data) {
+        setMarksData(data.scores || {}); // Retrive saved marks
+        setSubjectDates(data.subjectDates || {});
+    }
+}
 
 export default Students;
