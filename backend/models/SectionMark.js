@@ -24,5 +24,15 @@ const sectionMarkSchema = new mongoose.Schema({
     },
     updatedAt: { type: Date, default: Date.now }
 }, { minimize: false });
+// Change lines 15-24 to:
+scores: {
+    type: mongoose.Schema.Types.Mixed,
+    default: {}
+},
+subjectDates: {
+    type: mongoose.Schema.Types.Mixed,
+    default: {}
+},
+
 
 export default mongoose.model('SectionMark', sectionMarkSchema);
