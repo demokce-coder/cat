@@ -400,6 +400,38 @@ const seedSubjects = async () => {
     }
 };
 
+
+const migrateMockData = async () => {
+    if (!fs.existsSync(DB_PATH)) return;
+    
+    try {
+        const SectionMarks = (await import('./models/SectionMark.js')).default;
+        const localData = JSON.parse(fs.readFileSync(DB_PATH, 'utf-8'));
+        
+        if (localData.marks && Object.keys(localData.marks).length > 0) {
+            console.log('🔄 Syncing local marks to MongoDB...');
+            for (const [key, data] of Object.entries(localData.marks)) {
+                await SectionMarks.findOneAndUpdate(
+                    { 
+                        academicYear: data.academicYear, 
+                        year: data.year, 
+                        department: data.department, 
+                        section: data.section, 
+                        catType: data.catType 
+                    },
+                    data,
+                    { upsert: true }
+                );
+            }
+            console.log('✅ Local marks successfully migrated to MongoDB');
+            // Rename to prevent re-migration
+            fs.renameSync(DB_PATH, `${DB_PATH}.backup`);
+        }
+    } catch (e) {
+        console.error('⚠️ Migration error:', e.message);
+    }
+};
+
 const connectDB = async () => {
     try {
         await mongoose.connect(process.env.MONGODB_URI);
@@ -410,6 +442,7 @@ const connectDB = async () => {
     }
     if (dbStatus.connected) {
         await seedAdmin();
+        await migrateMockData();
     }
     await seedSubjects();
 };

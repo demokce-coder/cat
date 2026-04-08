@@ -726,8 +726,20 @@ const Students = () => {
                                                 <td key={sIdx} className="px-1 py-3 border-l border-slate-50 text-center w-24">
                                                     <input className={`mark-input w-full text-center text-[12px] font-black italic bg-transparent outline-none ${val === 'AB' || (val && parseFloat(val) < 25) ? 'text-red-600' : 'text-slate-800'}`} value={val} placeholder="--" onChange={(e) => {
                                                         let inputVal = e.target.value.toUpperCase();
-                                                        if (inputVal !== 'AB' && !isNaN(inputVal) && parseFloat(inputVal) > 50) {
-                                                            inputVal = '50';
+                                                        
+                                                        // Stricter Validation: Only allow "AB", "A" (prefix), or valid numbers 0-50
+                                                        const isNumeric = !isNaN(inputVal) && !isNaN(parseFloat(inputVal));
+                                                        const isABPrefix = "AB".startsWith(inputVal);
+
+                                                        if (!isNumeric && !isABPrefix && inputVal !== '') {
+                                                            // If invalid, don't update (revert to previous or clear)
+                                                            return; 
+                                                        }
+
+                                                        if (isNumeric) {
+                                                            const num = parseFloat(inputVal);
+                                                            if (num < 0) return; // Block negative
+                                                            if (num > 50) inputVal = '50'; // Cap at 50
                                                         }
                                                         const m = {...marksData};
                                                         if (!m[s.rollNumber]) m[s.rollNumber] = {};

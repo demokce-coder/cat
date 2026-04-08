@@ -45,9 +45,28 @@ router.post('/bulk-save', async (req, res) => {
     const { dbStatus, mockDb } = req.app.locals;
     const { year, academicYear, department, section, catType, subjects, scores, subjectDates } = req.body;
 
+    // Sanitize scores: Prevent negative marks
+    const sanitizedScores = {};
+    if (scores) {
+        Object.entries(scores).forEach(([roll, subjects]) => {
+            sanitizedScores[roll] = {};
+            Object.entries(subjects).forEach(([subCode, mark]) => {
+                const markStr = String(mark).toUpperCase();
+                if (markStr === 'AB' || markStr === 'A') {
+                    sanitizedScores[roll][subCode] = markStr;
+                } else if (!isNaN(markStr) && markStr !== '') {
+                    const num = parseFloat(markStr);
+                    sanitizedScores[roll][subCode] = num < 0 ? '0' : (num > 50 ? '50' : String(num));
+                } else {
+                    sanitizedScores[roll][subCode] = ''; // Invalid data cleared
+                }
+            });
+        });
+    }
+
     if (!dbStatus.connected) {
         const key = `${academicYear || '2025-2026'}-${year}-${department}-${section}-${catType}`;
-        mockDb.marks[key] = { year, academicYear: academicYear || '2025-2026', department, section, catType, subjects, scores, subjectDates: subjectDates || {} };
+        mockDb.marks[key] = { year, academicYear: academicYear || '2025-2026', department, section, catType, subjects, scores: sanitizedScores, subjectDates: subjectDates || {} };
         
         // Persist to local file for development durability
         try {
@@ -63,10 +82,10 @@ router.post('/bulk-save', async (req, res) => {
         let sectionDoc = await SectionMarks.findOne({ academicYear: academicYear || '2025-2026', year, department, section, catType });
         
         if (!sectionDoc) {
-            sectionDoc = new SectionMarks({ year, academicYear: academicYear || '2025-2026', department, section, catType, subjects, scores, subjectDates });
+            sectionDoc = new SectionMarks({ year, academicYear: academicYear || '2025-2026', department, section, catType, subjects, scores: sanitizedScores, subjectDates });
         } else {
             sectionDoc.subjects = subjects;
-            sectionDoc.scores = scores;
+            sectionDoc.scores = sanitizedScores;
             sectionDoc.subjectDates = subjectDates; 
             sectionDoc.updatedAt = Date.now();
         }
