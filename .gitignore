@@ -25,3 +25,6 @@ dist-ssr
 backend/node_modules
 db.json
 .env
+
+# Local Netlify folder
+.netlify

@@ -406,27 +406,54 @@ const migrateMockData = async () => {
     
     try {
         const SectionMarks = (await import('./models/SectionMark.js')).default;
+        const Student = (await import('./models/Student.js')).default;
+        const Subject = (await import('./models/Subject.js')).default;
+        
         const localData = JSON.parse(fs.readFileSync(DB_PATH, 'utf-8'));
         
+        // Migrate Students
+        if (localData.students && localData.students.length > 0) {
+            console.log(`🔄 Syncing ${localData.students.length} students to MongoDB...`);
+            for (let s of localData.students) {
+                const { _id, ...studentData } = s; // Strip invalid _id
+                await Student.findOneAndUpdate({ rollNumber: s.rollNumber }, studentData, { upsert: true });
+            }
+            console.log('✅ Students migrated');
+        }
+
+        // Migrate Subjects
+        if (localData.subjects && localData.subjects.length > 0) {
+            console.log(`🔄 Syncing ${localData.subjects.length} subjects to MongoDB...`);
+            for (let s of localData.subjects) {
+                const { _id, ...subjectData } = s; // Strip invalid _id
+                await Subject.findOneAndUpdate({ code: s.code }, subjectData, { upsert: true });
+            }
+            console.log('✅ Subjects migrated');
+        }
+
+        // Migrate Marks
         if (localData.marks && Object.keys(localData.marks).length > 0) {
             console.log('🔄 Syncing local marks to MongoDB...');
-            for (const [key, data] of Object.entries(localData.marks)) {
+            for (let [key, data] of Object.entries(localData.marks)) {
+                const { _id, ...marksData } = data; // Strip invalid _id
                 await SectionMarks.findOneAndUpdate(
                     { 
-                        academicYear: data.academicYear, 
-                        year: data.year, 
-                        department: data.department, 
-                        section: data.section, 
-                        catType: data.catType 
+                        academicYear: marksData.academicYear, 
+                        year: marksData.year, 
+                        department: marksData.department, 
+                        section: marksData.section, 
+                        catType: marksData.catType 
                     },
-                    data,
+                    marksData,
                     { upsert: true }
                 );
             }
             console.log('✅ Local marks successfully migrated to MongoDB');
-            // Rename to prevent re-migration
-            fs.renameSync(DB_PATH, `${DB_PATH}.backup`);
         }
+
+        // Rename to prevent re-migration
+        fs.renameSync(DB_PATH, `${DB_PATH}.backup_${Date.now()}`);
+        console.log('📦 Migration Complete. local db.json backed up.');
     } catch (e) {
         console.error('⚠️ Migration error:', e.message);
     }

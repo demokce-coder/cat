@@ -1,4 +1,5 @@
 import express from 'express';
+import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
 import User from '../models/User.js';
 
@@ -30,7 +31,7 @@ export const seedAdmin = async () => {
         // Upsert Student
         await User.findOneAndUpdate(
             { email: studentEmail },
-            { name: 'KCE Student Person', password: '12345678', role: 'student' },
+            { name: 'KCE Student Person', password: await bcrypt.hash('12345678', 10), role: 'student' },
             { upsert: true, new: true }
         );
 
@@ -83,7 +84,7 @@ router.post('/login', async (req, res) => {
             });
         }
 
-        const user = await User.findOne({ email });
+        const user = await User.findOne({ email: normalizedEmail });
         
         if (!user) {
             console.log('❌ LOGIN FAILED: User Not Found:', email);

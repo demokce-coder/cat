@@ -1,0 +1,6037 @@
+{
+  "students": [
+    {
+      "rollNumber": "821123104062",
+      "name": "PARKAVI B",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "B",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104063",
+      "name": "PAVIDHARAN D",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "B",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104064",
+      "name": "PILIRAJ G",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "B",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104065",
+      "name": "PRAKASH K",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "B",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104066",
+      "name": "PRASANNA B",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "B",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104067",
+      "name": "PRITHVI RAJ T",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "B",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104068",
+      "name": "PRIYADHARSHINI S",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "B",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104069",
+      "name": "RAHUL GANTHI M",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "B",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104070",
+      "name": "RAJA K",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "B",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104071",
+      "name": "RAJA MANIKANDAN V",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "B",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104072",
+      "name": "RAMAKAVI S",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "B",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104074",
+      "name": "RASUL MOHAMED H",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "B",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104075",
+      "name": "RATHINA PRAGADESH D",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "B",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104076",
+      "name": "RUHIYA V",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "B",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104077",
+      "name": "SAAIKIRTHIGA L",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "B",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104078",
+      "name": "SABAREESH M",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "B",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104079",
+      "name": "SAMINATHAN R",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "B",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104080",
+      "name": "SANDHIYA A",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "B",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104081",
+      "name": "SANDHIYA J",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "B",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104082",
+      "name": "SANJAY B",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "B",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104084",
+      "name": "SANTHOSH K",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "B",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104085",
+      "name": "SARVESH R",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "B",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104086",
+      "name": "SEDHURAMAN V",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "B",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104087",
+      "name": "SEVANTHI K",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "B",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104088",
+      "name": "SHANMATHI S",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "B",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104089",
+      "name": "SINDHUJA G",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "B",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104090",
+      "name": "SIVASAKTHI T",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "B",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104092",
+      "name": "SORNA LAKSHMI S",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "B",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104093",
+      "name": "SRIHARINI C",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "B",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104094",
+      "name": "SRUTHIKA S",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "B",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104095",
+      "name": "SUBAIR N",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "B",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104096",
+      "name": "SUBALAKSHMI E",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "B",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104097",
+      "name": "SUBASRI B S",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "B",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104098",
+      "name": "SUGAMITHA S",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "B",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104099",
+      "name": "SUGANTHIRAN K",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "B",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104100",
+      "name": "SUJITHA R",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "B",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104101",
+      "name": "SWATHI M",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "B",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104102",
+      "name": "SWATHI R",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "B",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104103",
+      "name": "SWATHI S",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "B",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104104",
+      "name": "THENNARASI K",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "B",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104105",
+      "name": "THILAGANRAM M",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "B",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104106",
+      "name": "THIYANESWARAN V",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "B",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104107",
+      "name": "VAISHNAVI P",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "B",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104108",
+      "name": "VENKADESAKUMAR S",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "B",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104109",
+      "name": "VENKATESWARAN G",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "B",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104110",
+      "name": "VERNICA S",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "B",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104111",
+      "name": "VIGARTHAN M",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "B",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104112",
+      "name": "VIGNESH C",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "B",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104113",
+      "name": "VIGNESHWARI R",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "B",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104114",
+      "name": "VIJAY KUMAR K",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "B",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104115",
+      "name": "VINITH KUMAR S",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "B",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104116",
+      "name": "VISHNU S",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "B",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104117",
+      "name": "VISHNUVARTHAN K",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "B",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104118",
+      "name": "VISVANANTHINI N",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "B",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104119",
+      "name": "YALINI SRIMATHI S",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "B",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104120",
+      "name": "YASMIN BANU M",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "B",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104121",
+      "name": "YAZHINI A",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "B",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104122",
+      "name": "YAZHINI S",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "B",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104501",
+      "name": "KANNA N",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "B",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104001",
+      "name": "ABINESH A",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "A",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104002",
+      "name": "ABIRAMI M",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "A",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104003",
+      "name": "ABIRAMI N",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "A",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104004",
+      "name": "ABIRAMI P",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "A",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104005",
+      "name": "ABISHAK W",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "A",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104006",
+      "name": "ADHIGA M",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "A",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104007",
+      "name": "ADHITYA G",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "A",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104008",
+      "name": "AJAY V",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "A",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104009",
+      "name": "AKASH G",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "A",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104010",
+      "name": "AKASH K (11.03.2006)",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "A",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104011",
+      "name": "AKASH K (25.09.2006)",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "A",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104012",
+      "name": "AKASH R",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "A",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104013",
+      "name": "AMARNATH T",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "A",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104014",
+      "name": "ANJEL T",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "A",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104015",
+      "name": "ARAVINTH R",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "A",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104016",
+      "name": "ATCHAYASRI D",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "A",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104017",
+      "name": "BHARANITHARAN R",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "A",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104019",
+      "name": "CHANDRA MUKILAN V",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "A",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104020",
+      "name": "DAKSHNA R",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "A",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104021",
+      "name": "DEERGA THARSAN A V",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "A",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104023",
+      "name": "DHARUN M",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "A",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104024",
+      "name": "DHINESH KARTHIK P",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "A",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104025",
+      "name": "DIVYA G",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "A",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104026",
+      "name": "GUNANATHAN G S",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "A",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104027",
+      "name": "GURUDEV N",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "A",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104028",
+      "name": "HAMSAVARTHINI M",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "A",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104029",
+      "name": "HARIHARAN M",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "A",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104030",
+      "name": "HARIHARAN N",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "A",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104031",
+      "name": "HARIHARAPERUMAL R S",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "A",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104032",
+      "name": "HARINI E",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "A",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104033",
+      "name": "INBAN E",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "A",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104034",
+      "name": "INDUPRIYAN S",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "A",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104035",
+      "name": "JAGADEESHWARAN",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "A",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104036",
+      "name": "JAYA PRAKASH J",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "A",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104037",
+      "name": "JEEVAJOTHI P",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "A",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104039",
+      "name": "JERRYN JEFFERSON P",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "A",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104040",
+      "name": "KABILAN P",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "A",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104041",
+      "name": "KALANITHI U",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "A",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104042",
+      "name": "KARAN K",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "A",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104043",
+      "name": "KARISHMA R",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "A",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104044",
+      "name": "KARTHIKEYAN S",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "A",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104045",
+      "name": "KAVITHA S",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "A",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104046",
+      "name": "LAKSHMI PRIYA M",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "A",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104047",
+      "name": "LAVANYA K",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "A",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104048",
+      "name": "LAVANYA K",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "A",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104049",
+      "name": "MAHESWARAN M",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "A",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104050",
+      "name": "MANIMARAN M",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "A",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104051",
+      "name": "MELVINANTO A",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "A",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104052",
+      "name": "MERUDULA S",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "A",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104053",
+      "name": "MOHAMED ABDUL RAHIM S",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "A",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104054",
+      "name": "MOHAMED FURZEES M",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "A",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104055",
+      "name": "MOHANDOSS R",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "A",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104057",
+      "name": "MONIKA P",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "A",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104058",
+      "name": "MUBASHIR M",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "A",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104059",
+      "name": "NARMATHA G",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "A",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104060",
+      "name": "NAVIN KUMAR G",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "A",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821123104061",
+      "name": "NITHISHKUMAR S",
+      "department": "CSE",
+      "year": "III YEAR",
+      "section": "A",
+      "academicYear": "2024-2025"
+    },
+    {
+      "rollNumber": "821124104001",
+      "name": "AARTHI SREE R N",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "A",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104002",
+      "name": "ADHITHYA B",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "A",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104003",
+      "name": "ABDUL WAHID T",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "A",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104004",
+      "name": "ABHISHEK C K",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "A",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104005",
+      "name": "ABINASH I",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "A",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104006",
+      "name": "ABINAYA P",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "A",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104007",
+      "name": "ABISHEK V",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "A",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104008",
+      "name": "AJAYARAJ M",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "A",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104009",
+      "name": "AKASH C",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "A",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104010",
+      "name": "ANUSHA T",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "A",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104011",
+      "name": "ARAVINDHA KUMAR A",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "A",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104012",
+      "name": "ARKEMEDES K",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "A",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104013",
+      "name": "ARUNA RANI R",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "A",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104014",
+      "name": "ASWATHI FARHAN A M",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "A",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104015",
+      "name": "ASWIN T R",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "A",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104016",
+      "name": "ATHIYASRI B",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "A",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104017",
+      "name": "BALAKRITHIKA B",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "A",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104018",
+      "name": "BALUPRIYAM N",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "A",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104019",
+      "name": "BHAVASHREE A",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "A",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104020",
+      "name": "BOWTHAN G R",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "A",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104021",
+      "name": "DARSHINI",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "A",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104022",
+      "name": "DEEPADHARSHINI G",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "A",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104023",
+      "name": "DEEPIKA S (10.3.2007)",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "A",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104024",
+      "name": "DEEPIKA S (27.6.2007)",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "A",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104025",
+      "name": "DEEKSHIDHA J",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "A",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104026",
+      "name": "DEVADHARSHINI R",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "A",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104027",
+      "name": "DHARANIKA B",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "A",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104028",
+      "name": "DHARANIKA K",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "A",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104029",
+      "name": "DHARSHINI R M",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "A",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104030",
+      "name": "DHATCHAYANI K",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "A",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104031",
+      "name": "DIVYAPRAKASH K",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "A",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104032",
+      "name": "DURGADHARSHINI R",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "A",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104033",
+      "name": "GIRIJ A K",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "A",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104034",
+      "name": "GIRIJAM",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "A",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104035",
+      "name": "GIRIJ A S",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "A",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104036",
+      "name": "GNANALEKA K",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "A",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104037",
+      "name": "GOKUL S",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "A",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104038",
+      "name": "GOKULAVANAN R",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "A",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104039",
+      "name": "GOKULVARTHAN R",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "A",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104040",
+      "name": "GOPIKA V",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "A",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104041",
+      "name": "GOWRISH A",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "A",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104042",
+      "name": "GURUKRISHNAN V",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "A",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104043",
+      "name": "HARI PRAGADESH S S",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "A",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104044",
+      "name": "HARI PRASATH S",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "A",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104045",
+      "name": "JAYA PRAKASH K",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "A",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104046",
+      "name": "JEGABAR NISHAY",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "A",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104047",
+      "name": "JOEYAL A",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "A",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104048",
+      "name": "JOSPHIN HEPSIBA G",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "A",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104049",
+      "name": "JOY SWEETY J",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "A",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104050",
+      "name": "KABILAN K",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "A",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104051",
+      "name": "KALAIVANAN S",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "A",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104052",
+      "name": "KAMALAVARTHINI S",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "A",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104053",
+      "name": "KAMATCHI M",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "A",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104054",
+      "name": "KARTHIKEYAN U",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "A",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104055",
+      "name": "KATHISH R",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "A",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104056",
+      "name": "KAVIPRIYAN S",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "A",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104057",
+      "name": "KAVYA DHARSHINI M",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "A",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104058",
+      "name": "KIRUTHIKA S",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "A",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104059",
+      "name": "LAKSHANA S",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "A",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104060",
+      "name": "LEKHA G",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "A",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "LE",
+      "name": "DASARATHY .M",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "A",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "LE ",
+      "name": "HARISH.R",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "A",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "LE  ",
+      "name": "CHARLES .T",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "A",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "LE   ",
+      "name": "RAJALAKSHMI.S",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "A",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "LE    ",
+      "name": "UTHRA.R",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "A",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104061",
+      "name": "MADHAN KUMAR P",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "B",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104062",
+      "name": "MADHUKRISHNA S",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "B",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104063",
+      "name": "MITHUN R K",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "B",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104064",
+      "name": "MUGUNDHAN T",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "B",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104065",
+      "name": "NAVEEN G R",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "B",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104066",
+      "name": "NAVEEN KUMAR R",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "B",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104067",
+      "name": "NAVINKUMAR S",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "B",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104068",
+      "name": "NEHA P",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "B",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104069",
+      "name": "NISHANTHI S",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "B",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104070",
+      "name": "NITINRAM K S",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "B",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104071",
+      "name": "PAVALAN K",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "B",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104072",
+      "name": "PAVITHRA D",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "B",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104074",
+      "name": "PRABHAVATHI P",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "B",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104075",
+      "name": "PRAKSHITHA S",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "B",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104076",
+      "name": "PRASANTH J",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "B",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104077",
+      "name": "PREETHI M",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "B",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104078",
+      "name": "PREETHI V",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "B",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104079",
+      "name": "PRETHIKA S",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "B",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104081",
+      "name": "PRIYANKA S",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "B",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104082",
+      "name": "PUSHPA P",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "B",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104083",
+      "name": "RAGAVI R",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "B",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104084",
+      "name": "RAGUL N",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "B",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104085",
+      "name": "RAJASRI V",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "B",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104086",
+      "name": "RAMAKRISHNAN K",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "B",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104087",
+      "name": "RAMESH R",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "B",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104088",
+      "name": "RANJITH R",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "B",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104089",
+      "name": "RITHIKA S",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "B",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104090",
+      "name": "RUBAN K",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "B",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104091",
+      "name": "SAKKTHI A",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "B",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104092",
+      "name": "SANJAY S",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "B",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104093",
+      "name": "SANTHIYA MEENA E",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "B",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104094",
+      "name": "SANTHOSH K",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "B",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104095",
+      "name": "SARABESWARI B",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "B",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104096",
+      "name": "SASHWITHA G",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "B",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104097",
+      "name": "SHANTHINI PRIYA M",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "B",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104098",
+      "name": "SHARUN S",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "B",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104099",
+      "name": "SHIVANI SRI B",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "B",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104100",
+      "name": "SHRI LAKSHANA S K",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "B",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104101",
+      "name": "SINDHUJA S",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "B",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104102",
+      "name": "SOWNDARYA P",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "B",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104103",
+      "name": "SRI HARSHINI K",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "B",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104104",
+      "name": "SRIDHARSHAN S",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "B",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104105",
+      "name": "SUBASH CHANDRA BOSE K",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "B",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104106",
+      "name": "SUBHA DHARSHINI G",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "B",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104107",
+      "name": "SUBHASHINI N",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "B",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104108",
+      "name": "SYED FATHIMA K",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "B",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104109",
+      "name": "TAMIL NANGAI K",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "B",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104110",
+      "name": "THAMARAI SELVI D",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "B",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104111",
+      "name": "THARUN M",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "B",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104112",
+      "name": "VARSHINI G",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "B",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104113",
+      "name": "VARSHINI S",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "B",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104114",
+      "name": "VASANTH B",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "B",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104115",
+      "name": "VIGNESH S M",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "B",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104116",
+      "name": "VISHNU PRASATH S",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "B",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104117",
+      "name": "VISHVAKKANNAN S",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "B",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104118",
+      "name": "YAMUNA R",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "B",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "821124104119",
+      "name": "YOGARATHNA E",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "B",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "LE      ",
+      "name": "CHATRAPATHI U",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "B",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "LE       ",
+      "name": "MAZEED AHAMED S",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "B",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "LE        ",
+      "name": "NITHISH R P",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "B",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "LE         ",
+      "name": "SAITHARUN D",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "B",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "RA",
+      "name": "SIVASANMUGAM S",
+      "department": "CSE",
+      "year": "II YEAR",
+      "section": "B",
+      "academicYear": "2025-2026"
+    },
+    {
+      "rollNumber": "82112310401",
+      "name": "AARAV SHARMA",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585372861.684"
+    },
+    {
+      "rollNumber": "82112310402",
+      "name": "VIVAAN KUMAR",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585372861.2512"
+    },
+    {
+      "rollNumber": "82112310403",
+      "name": "ADITYA SINGH",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585372861.5103"
+    },
+    {
+      "rollNumber": "82112310404",
+      "name": "ARJUN PATEL",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585372861.1953"
+    },
+    {
+      "rollNumber": "82112310405",
+      "name": "REYANSH GUPTA",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585372861.1045"
+    },
+    {
+      "rollNumber": "82112310406",
+      "name": "MOHAMMED ALI",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585372861.558"
+    },
+    {
+      "rollNumber": "82112310407",
+      "name": "SAI KRISHNA",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585372861.6362"
+    },
+    {
+      "rollNumber": "82112310408",
+      "name": "ROHIT VERMA",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585372861.8115"
+    },
+    {
+      "rollNumber": "82112310409",
+      "name": "KARTHIK REDDY",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585372861.7332"
+    },
+    {
+      "rollNumber": "82112310410",
+      "name": "RAHUL DAS",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585372861.515"
+    },
+    {
+      "rollNumber": "82112310411",
+      "name": "VIKRAM MEHTA",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585372861.9746"
+    },
+    {
+      "rollNumber": "82112310412",
+      "name": "SANJAY NAIR",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585372861.7375"
+    },
+    {
+      "rollNumber": "82112310413",
+      "name": "PRANAV IYER",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585372861.2917"
+    },
+    {
+      "rollNumber": "82112310414",
+      "name": "NIKHIL JAIN",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585372861.6633"
+    },
+    {
+      "rollNumber": "82112310415",
+      "name": "ANKIT AGARWAL",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585372861.3364"
+    },
+    {
+      "rollNumber": "82112310416",
+      "name": "HARSHA VARDHAN",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585372861.464"
+    },
+    {
+      "rollNumber": "82112310417",
+      "name": "DEEPAK YADAV",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585372861.9458"
+    },
+    {
+      "rollNumber": "82112310418",
+      "name": "MANOJ KUMAR",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585372861.6633"
+    },
+    {
+      "rollNumber": "82112310419",
+      "name": "SIDDHARTH ROY",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585372861.3438"
+    },
+    {
+      "rollNumber": "82112310420",
+      "name": "VARUN CHAWLA",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585372861.002"
+    },
+    {
+      "rollNumber": "82112310421",
+      "name": "AMIT MISHRA",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585372861.0825"
+    },
+    {
+      "rollNumber": "82112310422",
+      "name": "RAKESH SHARMA",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585372861.6423"
+    },
+    {
+      "rollNumber": "82112310423",
+      "name": "SURESH BABU",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585372861.8708"
+    },
+    {
+      "rollNumber": "82112310424",
+      "name": "DINESH KUMAR",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585372861.8042"
+    },
+    {
+      "rollNumber": "82112310425",
+      "name": "GOKUL RAJ",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585372861.0237"
+    },
+    {
+      "rollNumber": "82112310426",
+      "name": "SURYA PRAKASH",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585372861.537"
+    },
+    {
+      "rollNumber": "82112310427",
+      "name": "AJAY DEV",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585372861.03"
+    },
+    {
+      "rollNumber": "82112310428",
+      "name": "VIGNESH S",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585372861.867"
+    },
+    {
+      "rollNumber": "82112310429",
+      "name": "KIRAN KUMAR",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585372861.1187"
+    },
+    {
+      "rollNumber": "82112310430",
+      "name": "BALAJI R",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585372861.894"
+    },
+    {
+      "rollNumber": "82112310431",
+      "name": "ARAVIND K",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585372861.96"
+    },
+    {
+      "rollNumber": "82112310432",
+      "name": "NAVEEN RAJ",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585372861.872"
+    },
+    {
+      "rollNumber": "82112310433",
+      "name": "ASHWIN KUMAR",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585372861.27"
+    },
+    {
+      "rollNumber": "82112310434",
+      "name": "LOKESH P",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585372861.4502"
+    },
+    {
+      "rollNumber": "82112310435",
+      "name": "PRADEEP KUMAR",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585372861.2654"
+    },
+    {
+      "rollNumber": "82112310436",
+      "name": "SUNIL REDDY",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585372861.8235"
+    },
+    {
+      "rollNumber": "82112310437",
+      "name": "YOGESH KUMAR",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585372861.3328"
+    },
+    {
+      "rollNumber": "82112310438",
+      "name": "TARUN SHARMA",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585372861.4287"
+    },
+    {
+      "rollNumber": "82112310439",
+      "name": "VIVEK ANAND",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585372861.8772"
+    },
+    {
+      "rollNumber": "82112310440",
+      "name": "GANESH KUMAR",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585372861.1875"
+    },
+    {
+      "rollNumber": "82112310441",
+      "name": "ROHIT SINGH",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585372861.9004"
+    },
+    {
+      "rollNumber": "82112310442",
+      "name": "ABHISHEK KUMAR",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585372861.205"
+    },
+    {
+      "rollNumber": "82112310443",
+      "name": "KUNAL SHAH",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585372861.0935"
+    },
+    {
+      "rollNumber": "82112310444",
+      "name": "RAJAT VERMA",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585372861.6265"
+    },
+    {
+      "rollNumber": "82112310445",
+      "name": "SAMEER KHAN",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585372861.3655"
+    },
+    {
+      "rollNumber": "82112310446",
+      "name": "IRFAN AHMED",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585372861.5652"
+    },
+    {
+      "rollNumber": "82112310447",
+      "name": "FAIZAN ALI",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585372861.856"
+    },
+    {
+      "rollNumber": "82112310448",
+      "name": "ZUBAIR KHAN",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585372861.4226"
+    },
+    {
+      "rollNumber": "82112310449",
+      "name": "IMRAN SHEIKH",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585372861.2878"
+    },
+    {
+      "rollNumber": "82112310450",
+      "name": "ASIF ALI",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585372861.6052"
+    },
+    {
+      "rollNumber": "82112310451",
+      "name": "RAHMAN K",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585372861.8442"
+    },
+    {
+      "rollNumber": "82112310452",
+      "name": "NASEER AHMED",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585372861.1418"
+    },
+    {
+      "rollNumber": "82112310453",
+      "name": "SHAHID KHAN",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585372861.4858"
+    },
+    {
+      "rollNumber": "82112310454",
+      "name": "JUNAID AKHTAR",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585372861.578"
+    },
+    {
+      "rollNumber": "82112310455",
+      "name": "SALMAN KHAN",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585372861.1125"
+    },
+    {
+      "rollNumber": "82112310456",
+      "name": "FARHAN ALI",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585372861.662"
+    },
+    {
+      "rollNumber": "82112310457",
+      "name": "WASIM AKRAM",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585372861.2688"
+    },
+    {
+      "rollNumber": "82112310458",
+      "name": "SHOAIB MALIK",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585372861.7776"
+    },
+    {
+      "rollNumber": "82112310459",
+      "name": "BILAL AHMED",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585372861.8792"
+    },
+    {
+      "rollNumber": "82112310460",
+      "name": "TARIQ HUSSAIN",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585372861.6238"
+    },
+    {
+      "rollNumber": "82112310401",
+      "name": "AARAV SHARMA",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585972005.2583"
+    },
+    {
+      "rollNumber": "82112310402",
+      "name": "VIVAAN KUMAR",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585972005.7422"
+    },
+    {
+      "rollNumber": "82112310403",
+      "name": "ADITYA SINGH",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585972005.9158"
+    },
+    {
+      "rollNumber": "82112310404",
+      "name": "ARJUN PATEL",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585972005.5793"
+    },
+    {
+      "rollNumber": "82112310405",
+      "name": "REYANSH GUPTA",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585972005.478"
+    },
+    {
+      "rollNumber": "82112310406",
+      "name": "MOHAMMED ALI",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585972005.4434"
+    },
+    {
+      "rollNumber": "82112310407",
+      "name": "SAI KRISHNA",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585972005.5032"
+    },
+    {
+      "rollNumber": "82112310408",
+      "name": "ROHIT VERMA",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585972005.6086"
+    },
+    {
+      "rollNumber": "82112310409",
+      "name": "KARTHIK REDDY",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585972005.278"
+    },
+    {
+      "rollNumber": "82112310410",
+      "name": "RAHUL DAS",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585972005.7444"
+    },
+    {
+      "rollNumber": "82112310411",
+      "name": "VIKRAM MEHTA",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585972005.4033"
+    },
+    {
+      "rollNumber": "82112310412",
+      "name": "SANJAY NAIR",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585972005.4683"
+    },
+    {
+      "rollNumber": "82112310413",
+      "name": "PRANAV IYER",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585972005.9102"
+    },
+    {
+      "rollNumber": "82112310414",
+      "name": "NIKHIL JAIN",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585972005.4705"
+    },
+    {
+      "rollNumber": "82112310415",
+      "name": "ANKIT AGARWAL",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585972005.3037"
+    },
+    {
+      "rollNumber": "82112310416",
+      "name": "HARSHA VARDHAN",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585972005.6814"
+    },
+    {
+      "rollNumber": "82112310417",
+      "name": "DEEPAK YADAV",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585972005.2493"
+    },
+    {
+      "rollNumber": "82112310418",
+      "name": "MANOJ KUMAR",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585972005.7056"
+    },
+    {
+      "rollNumber": "82112310419",
+      "name": "SIDDHARTH ROY",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585972005.3225"
+    },
+    {
+      "rollNumber": "82112310420",
+      "name": "VARUN CHAWLA",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585972005.751"
+    },
+    {
+      "rollNumber": "82112310421",
+      "name": "AMIT MISHRA",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585972005.9336"
+    },
+    {
+      "rollNumber": "82112310422",
+      "name": "RAKESH SHARMA",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585972005.5369"
+    },
+    {
+      "rollNumber": "82112310423",
+      "name": "SURESH BABU",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585972005.276"
+    },
+    {
+      "rollNumber": "82112310424",
+      "name": "DINESH KUMAR",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585972005.2742"
+    },
+    {
+      "rollNumber": "82112310425",
+      "name": "GOKUL RAJ",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585972005.5332"
+    },
+    {
+      "rollNumber": "82112310426",
+      "name": "SURYA PRAKASH",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585972005.0786"
+    },
+    {
+      "rollNumber": "82112310427",
+      "name": "AJAY DEV",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585972005.0762"
+    },
+    {
+      "rollNumber": "82112310428",
+      "name": "VIGNESH S",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585972005.845"
+    },
+    {
+      "rollNumber": "82112310429",
+      "name": "KIRAN KUMAR",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585972005.634"
+    },
+    {
+      "rollNumber": "82112310430",
+      "name": "BALAJI R",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585972005.178"
+    },
+    {
+      "rollNumber": "82112310431",
+      "name": "ARAVIND K",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585972005.6655"
+    },
+    {
+      "rollNumber": "82112310432",
+      "name": "NAVEEN RAJ",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585972005.035"
+    },
+    {
+      "rollNumber": "82112310433",
+      "name": "ASHWIN KUMAR",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585972005.3901"
+    },
+    {
+      "rollNumber": "82112310434",
+      "name": "LOKESH P",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585972005.2783"
+    },
+    {
+      "rollNumber": "82112310435",
+      "name": "PRADEEP KUMAR",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585972005.1326"
+    },
+    {
+      "rollNumber": "82112310436",
+      "name": "SUNIL REDDY",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585972005.3813"
+    },
+    {
+      "rollNumber": "82112310437",
+      "name": "YOGESH KUMAR",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585972005.7026"
+    },
+    {
+      "rollNumber": "82112310438",
+      "name": "TARUN SHARMA",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585972005.8843"
+    },
+    {
+      "rollNumber": "82112310439",
+      "name": "VIVEK ANAND",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585972005.288"
+    },
+    {
+      "rollNumber": "82112310440",
+      "name": "GANESH KUMAR",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585972005.3142"
+    },
+    {
+      "rollNumber": "82112310441",
+      "name": "ROHIT SINGH",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585972005.8745"
+    },
+    {
+      "rollNumber": "82112310442",
+      "name": "ABHISHEK KUMAR",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585972005.6401"
+    },
+    {
+      "rollNumber": "82112310443",
+      "name": "KUNAL SHAH",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585972005.3008"
+    },
+    {
+      "rollNumber": "82112310444",
+      "name": "RAJAT VERMA",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585972005.187"
+    },
+    {
+      "rollNumber": "82112310445",
+      "name": "SAMEER KHAN",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585972005.2576"
+    },
+    {
+      "rollNumber": "82112310446",
+      "name": "IRFAN AHMED",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585972005.4294"
+    },
+    {
+      "rollNumber": "82112310447",
+      "name": "FAIZAN ALI",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585972005.7827"
+    },
+    {
+      "rollNumber": "82112310448",
+      "name": "ZUBAIR KHAN",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585972005.1814"
+    },
+    {
+      "rollNumber": "82112310449",
+      "name": "IMRAN SHEIKH",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585972005.406"
+    },
+    {
+      "rollNumber": "82112310450",
+      "name": "ASIF ALI",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585972005.8186"
+    },
+    {
+      "rollNumber": "82112310451",
+      "name": "RAHMAN K",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585972005.5276"
+    },
+    {
+      "rollNumber": "82112310452",
+      "name": "NASEER AHMED",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585972005.302"
+    },
+    {
+      "rollNumber": "82112310453",
+      "name": "SHAHID KHAN",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585972005.1716"
+    },
+    {
+      "rollNumber": "82112310454",
+      "name": "JUNAID AKHTAR",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585972005.7507"
+    },
+    {
+      "rollNumber": "82112310455",
+      "name": "SALMAN KHAN",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585972005.7178"
+    },
+    {
+      "rollNumber": "82112310456",
+      "name": "FARHAN ALI",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585972005.032"
+    },
+    {
+      "rollNumber": "82112310457",
+      "name": "WASIM AKRAM",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585972005.1052"
+    },
+    {
+      "rollNumber": "82112310458",
+      "name": "SHOAIB MALIK",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585972005.15"
+    },
+    {
+      "rollNumber": "82112310459",
+      "name": "BILAL AHMED",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585972005.6765"
+    },
+    {
+      "rollNumber": "82112310460",
+      "name": "TARIQ HUSSAIN",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775585972005.7063"
+    },
+    {
+      "rollNumber": "821123104062",
+      "name": "PARKAVI B",
+      "academicYear": "2025-2026",
+      "year": "III YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775586973814.9133"
+    },
+    {
+      "rollNumber": "821123104063",
+      "name": "PAVIDHARAN D",
+      "academicYear": "2025-2026",
+      "year": "III YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775586973814.6426"
+    },
+    {
+      "rollNumber": "821123104064",
+      "name": "PILIRAJ G",
+      "academicYear": "2025-2026",
+      "year": "III YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775586973814.0347"
+    },
+    {
+      "rollNumber": "821123104065",
+      "name": "PRAKASH K",
+      "academicYear": "2025-2026",
+      "year": "III YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775586973814.4377"
+    },
+    {
+      "rollNumber": "821123104066",
+      "name": "PRASANNA B",
+      "academicYear": "2025-2026",
+      "year": "III YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775586973814.4658"
+    },
+    {
+      "rollNumber": "821123104067",
+      "name": "PRITHVI RAJ T",
+      "academicYear": "2025-2026",
+      "year": "III YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775586973814.2605"
+    },
+    {
+      "rollNumber": "821123104068",
+      "name": "PRIYADHARSHINI S",
+      "academicYear": "2025-2026",
+      "year": "III YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775586973814.512"
+    },
+    {
+      "rollNumber": "821123104069",
+      "name": "RAHUL GANTHI M",
+      "academicYear": "2025-2026",
+      "year": "III YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775586973814.0815"
+    },
+    {
+      "rollNumber": "821123104070",
+      "name": "RAJA K",
+      "academicYear": "2025-2026",
+      "year": "III YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775586973814.8206"
+    },
+    {
+      "rollNumber": "821123104071",
+      "name": "RAJA MANIKANDAN V",
+      "academicYear": "2025-2026",
+      "year": "III YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775586973814.2974"
+    },
+    {
+      "rollNumber": "821123104072",
+      "name": "RAMAKAVI S",
+      "academicYear": "2025-2026",
+      "year": "III YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775586973814.789"
+    },
+    {
+      "rollNumber": "821123104074",
+      "name": "RASUL MOHAMED H",
+      "academicYear": "2025-2026",
+      "year": "III YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775586973814.3071"
+    },
+    {
+      "rollNumber": "821123104075",
+      "name": "RATHINA PRAGADESH D",
+      "academicYear": "2025-2026",
+      "year": "III YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775586973814.104"
+    },
+    {
+      "rollNumber": "821123104076",
+      "name": "RUHIYA V",
+      "academicYear": "2025-2026",
+      "year": "III YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775586973814.308"
+    },
+    {
+      "rollNumber": "821123104077",
+      "name": "SAAIKIRTHIGA L",
+      "academicYear": "2025-2026",
+      "year": "III YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775586973814.9475"
+    },
+    {
+      "rollNumber": "821123104078",
+      "name": "SABAREESH M",
+      "academicYear": "2025-2026",
+      "year": "III YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775586973814.8962"
+    },
+    {
+      "rollNumber": "821123104079",
+      "name": "SAMINATHAN R",
+      "academicYear": "2025-2026",
+      "year": "III YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775586973814.3088"
+    },
+    {
+      "rollNumber": "821123104080",
+      "name": "SANDHIYA A",
+      "academicYear": "2025-2026",
+      "year": "III YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775586973814.0583"
+    },
+    {
+      "rollNumber": "821123104081",
+      "name": "SANDHIYA J",
+      "academicYear": "2025-2026",
+      "year": "III YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775586973814.1514"
+    },
+    {
+      "rollNumber": "821123104082",
+      "name": "SANJAY B",
+      "academicYear": "2025-2026",
+      "year": "III YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775586973814.6848"
+    },
+    {
+      "rollNumber": "821123104084",
+      "name": "SANTHOSH K",
+      "academicYear": "2025-2026",
+      "year": "III YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775586973814.8674"
+    },
+    {
+      "rollNumber": "821123104085",
+      "name": "SARVESH R",
+      "academicYear": "2025-2026",
+      "year": "III YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775586973814.2942"
+    },
+    {
+      "rollNumber": "821123104086",
+      "name": "SEDHURAMAN V",
+      "academicYear": "2025-2026",
+      "year": "III YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775586973814.71"
+    },
+    {
+      "rollNumber": "821123104087",
+      "name": "SEVANTHI K",
+      "academicYear": "2025-2026",
+      "year": "III YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775586973814.2632"
+    },
+    {
+      "rollNumber": "821123104088",
+      "name": "SHANMATHI S",
+      "academicYear": "2025-2026",
+      "year": "III YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775586973814.7002"
+    },
+    {
+      "rollNumber": "821123104089",
+      "name": "SINDHUJA G",
+      "academicYear": "2025-2026",
+      "year": "III YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775586973814.2039"
+    },
+    {
+      "rollNumber": "821123104090",
+      "name": "SIVASAKTHI T",
+      "academicYear": "2025-2026",
+      "year": "III YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775586973814.866"
+    },
+    {
+      "rollNumber": "821123104092",
+      "name": "SORNA LAKSHMI S",
+      "academicYear": "2025-2026",
+      "year": "III YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775586973814.0024"
+    },
+    {
+      "rollNumber": "821123104093",
+      "name": "SRIHARINI C",
+      "academicYear": "2025-2026",
+      "year": "III YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775586973814.3123"
+    },
+    {
+      "rollNumber": "821123104094",
+      "name": "SRUTHIKA S",
+      "academicYear": "2025-2026",
+      "year": "III YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775586973814.8613"
+    },
+    {
+      "rollNumber": "821123104095",
+      "name": "SUBAIR N",
+      "academicYear": "2025-2026",
+      "year": "III YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775586973814.139"
+    },
+    {
+      "rollNumber": "821123104096",
+      "name": "SUBALAKSHMI E",
+      "academicYear": "2025-2026",
+      "year": "III YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775586973814.4385"
+    },
+    {
+      "rollNumber": "821123104097",
+      "name": "SUBASRI B S",
+      "academicYear": "2025-2026",
+      "year": "III YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775586973814.4739"
+    },
+    {
+      "rollNumber": "821123104098",
+      "name": "SUGAMITHA S",
+      "academicYear": "2025-2026",
+      "year": "III YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775586973814.5552"
+    },
+    {
+      "rollNumber": "821123104099",
+      "name": "SUGANTHIRAN K",
+      "academicYear": "2025-2026",
+      "year": "III YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775586973814.2585"
+    },
+    {
+      "rollNumber": "821123104100",
+      "name": "SUJITHA R",
+      "academicYear": "2025-2026",
+      "year": "III YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775586973814.8716"
+    },
+    {
+      "rollNumber": "821123104101",
+      "name": "SWATHI M",
+      "academicYear": "2025-2026",
+      "year": "III YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775586973814.497"
+    },
+    {
+      "rollNumber": "821123104102",
+      "name": "SWATHI R",
+      "academicYear": "2025-2026",
+      "year": "III YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775586973814.516"
+    },
+    {
+      "rollNumber": "821123104103",
+      "name": "SWATHI S",
+      "academicYear": "2025-2026",
+      "year": "III YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775586973814.0044"
+    },
+    {
+      "rollNumber": "821123104104",
+      "name": "THENNARASI K",
+      "academicYear": "2025-2026",
+      "year": "III YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775586973814.259"
+    },
+    {
+      "rollNumber": "821123104105",
+      "name": "THILAGANRAM M",
+      "academicYear": "2025-2026",
+      "year": "III YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775586973814.921"
+    },
+    {
+      "rollNumber": "821123104106",
+      "name": "THIYANESWARAN V",
+      "academicYear": "2025-2026",
+      "year": "III YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775586973814.198"
+    },
+    {
+      "rollNumber": "821123104107",
+      "name": "VAISHNAVI P",
+      "academicYear": "2025-2026",
+      "year": "III YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775586973814.6328"
+    },
+    {
+      "rollNumber": "821123104108",
+      "name": "VENKADESAKUMAR S",
+      "academicYear": "2025-2026",
+      "year": "III YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775586973814.7878"
+    },
+    {
+      "rollNumber": "821123104109",
+      "name": "VENKATESWARAN G",
+      "academicYear": "2025-2026",
+      "year": "III YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775586973814.7878"
+    },
+    {
+      "rollNumber": "821123104110",
+      "name": "VERNICA S",
+      "academicYear": "2025-2026",
+      "year": "III YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775586973814.5493"
+    },
+    {
+      "rollNumber": "821123104111",
+      "name": "VIGARTHAN M",
+      "academicYear": "2025-2026",
+      "year": "III YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775586973814.5334"
+    },
+    {
+      "rollNumber": "821123104112",
+      "name": "VIGNESH C",
+      "academicYear": "2025-2026",
+      "year": "III YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775586973814.9973"
+    },
+    {
+      "rollNumber": "821123104113",
+      "name": "VIGNESHWARI R",
+      "academicYear": "2025-2026",
+      "year": "III YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775586973814.4668"
+    },
+    {
+      "rollNumber": "821123104114",
+      "name": "VIJAY KUMAR K",
+      "academicYear": "2025-2026",
+      "year": "III YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775586973814.835"
+    },
+    {
+      "rollNumber": "821123104115",
+      "name": "VINITH KUMAR S",
+      "academicYear": "2025-2026",
+      "year": "III YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775586973814.6924"
+    },
+    {
+      "rollNumber": "821123104116",
+      "name": "VISHNU S",
+      "academicYear": "2025-2026",
+      "year": "III YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775586973814.4302"
+    },
+    {
+      "rollNumber": "821123104117",
+      "name": "VISHNUVARTHAN K",
+      "academicYear": "2025-2026",
+      "year": "III YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775586973814.2612"
+    },
+    {
+      "rollNumber": "821123104118",
+      "name": "VISVANANTHINI N",
+      "academicYear": "2025-2026",
+      "year": "III YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775586973814.9426"
+    },
+    {
+      "rollNumber": "821123104119",
+      "name": "YALINI SRIMATHI S",
+      "academicYear": "2025-2026",
+      "year": "III YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775586973814.9912"
+    },
+    {
+      "rollNumber": "821123104120",
+      "name": "YASMIN BANU M",
+      "academicYear": "2025-2026",
+      "year": "III YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775586973814.9934"
+    },
+    {
+      "rollNumber": "821123104121",
+      "name": "YAZHINI A",
+      "academicYear": "2025-2026",
+      "year": "III YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775586973814.6135"
+    },
+    {
+      "rollNumber": "821123104122",
+      "name": "YAZHINI S",
+      "academicYear": "2025-2026",
+      "year": "III YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775586973814.4678"
+    },
+    {
+      "rollNumber": "821123104501",
+      "name": "KANNA N",
+      "academicYear": "2025-2026",
+      "year": "III YEAR",
+      "department": "CSE",
+      "section": "B",
+      "_id": "1775586973814.9692"
+    },
+    {
+      "rollNumber": "82112310401",
+      "name": "AARAV SHARMA",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775630540092.8071"
+    },
+    {
+      "rollNumber": "82112310402",
+      "name": "VIVAAN KUMAR",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775630540092.1543"
+    },
+    {
+      "rollNumber": "82112310403",
+      "name": "ADITYA SINGH",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775630540092.5955"
+    },
+    {
+      "rollNumber": "82112310404",
+      "name": "ARJUN PATEL",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775630540092.3064"
+    },
+    {
+      "rollNumber": "82112310405",
+      "name": "REYANSH GUPTA",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775630540092.6958"
+    },
+    {
+      "rollNumber": "82112310406",
+      "name": "MOHAMMED ALI",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775630540092.7144"
+    },
+    {
+      "rollNumber": "82112310407",
+      "name": "SAI KRISHNA",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775630540092.9128"
+    },
+    {
+      "rollNumber": "82112310408",
+      "name": "ROHIT VERMA",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775630540092.5862"
+    },
+    {
+      "rollNumber": "82112310409",
+      "name": "KARTHIK REDDY",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775630540092.2942"
+    },
+    {
+      "rollNumber": "82112310410",
+      "name": "RAHUL DAS",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775630540092.9485"
+    },
+    {
+      "rollNumber": "82112310411",
+      "name": "VIKRAM MEHTA",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775630540092.971"
+    },
+    {
+      "rollNumber": "82112310412",
+      "name": "SANJAY NAIR",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775630540092.5205"
+    },
+    {
+      "rollNumber": "82112310413",
+      "name": "PRANAV IYER",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775630540092.3975"
+    },
+    {
+      "rollNumber": "82112310414",
+      "name": "NIKHIL JAIN",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775630540092.0015"
+    },
+    {
+      "rollNumber": "82112310415",
+      "name": "ANKIT AGARWAL",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775630540092.578"
+    },
+    {
+      "rollNumber": "82112310416",
+      "name": "HARSHA VARDHAN",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775630540092.1697"
+    },
+    {
+      "rollNumber": "82112310417",
+      "name": "DEEPAK YADAV",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775630540092.9583"
+    },
+    {
+      "rollNumber": "82112310418",
+      "name": "MANOJ KUMAR",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775630540092.5703"
+    },
+    {
+      "rollNumber": "82112310419",
+      "name": "SIDDHARTH ROY",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775630540092.434"
+    },
+    {
+      "rollNumber": "82112310420",
+      "name": "VARUN CHAWLA",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775630540092.6172"
+    },
+    {
+      "rollNumber": "82112310421",
+      "name": "AMIT MISHRA",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775630540092.907"
+    },
+    {
+      "rollNumber": "82112310422",
+      "name": "RAKESH SHARMA",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775630540092.8723"
+    },
+    {
+      "rollNumber": "82112310423",
+      "name": "SURESH BABU",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775630540092.7825"
+    },
+    {
+      "rollNumber": "82112310424",
+      "name": "DINESH KUMAR",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775630540092.7568"
+    },
+    {
+      "rollNumber": "82112310425",
+      "name": "GOKUL RAJ",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775630540092.498"
+    },
+    {
+      "rollNumber": "82112310426",
+      "name": "SURYA PRAKASH",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775630540092.4065"
+    },
+    {
+      "rollNumber": "82112310427",
+      "name": "AJAY DEV",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775630540092.0215"
+    },
+    {
+      "rollNumber": "82112310428",
+      "name": "VIGNESH S",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775630540092.1277"
+    },
+    {
+      "rollNumber": "82112310429",
+      "name": "KIRAN KUMAR",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775630540092.0876"
+    },
+    {
+      "rollNumber": "82112310430",
+      "name": "BALAJI R",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775630540092.5857"
+    },
+    {
+      "rollNumber": "82112310431",
+      "name": "ARAVIND K",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775630540092.1404"
+    },
+    {
+      "rollNumber": "82112310432",
+      "name": "NAVEEN RAJ",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775630540092.865"
+    },
+    {
+      "rollNumber": "82112310433",
+      "name": "ASHWIN KUMAR",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775630540092.8452"
+    },
+    {
+      "rollNumber": "82112310434",
+      "name": "LOKESH P",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775630540092.695"
+    },
+    {
+      "rollNumber": "82112310435",
+      "name": "PRADEEP KUMAR",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775630540092.3164"
+    },
+    {
+      "rollNumber": "82112310436",
+      "name": "SUNIL REDDY",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775630540092.9436"
+    },
+    {
+      "rollNumber": "82112310437",
+      "name": "YOGESH KUMAR",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775630540092.582"
+    },
+    {
+      "rollNumber": "82112310438",
+      "name": "TARUN SHARMA",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775630540092.2324"
+    },
+    {
+      "rollNumber": "82112310439",
+      "name": "VIVEK ANAND",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775630540092.1956"
+    },
+    {
+      "rollNumber": "82112310440",
+      "name": "GANESH KUMAR",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775630540092.5815"
+    },
+    {
+      "rollNumber": "82112310441",
+      "name": "ROHIT SINGH",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775630540092.2568"
+    },
+    {
+      "rollNumber": "82112310442",
+      "name": "ABHISHEK KUMAR",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775630540092.164"
+    },
+    {
+      "rollNumber": "82112310443",
+      "name": "KUNAL SHAH",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775630540092.7742"
+    },
+    {
+      "rollNumber": "82112310444",
+      "name": "RAJAT VERMA",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775630540092.417"
+    },
+    {
+      "rollNumber": "82112310445",
+      "name": "SAMEER KHAN",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775630540092.0981"
+    },
+    {
+      "rollNumber": "82112310446",
+      "name": "IRFAN AHMED",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775630540092.2478"
+    },
+    {
+      "rollNumber": "82112310447",
+      "name": "FAIZAN ALI",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775630540092.719"
+    },
+    {
+      "rollNumber": "82112310448",
+      "name": "ZUBAIR KHAN",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775630540092.3906"
+    },
+    {
+      "rollNumber": "82112310449",
+      "name": "IMRAN SHEIKH",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775630540092.8228"
+    },
+    {
+      "rollNumber": "82112310450",
+      "name": "ASIF ALI",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775630540092.6953"
+    },
+    {
+      "rollNumber": "82112310451",
+      "name": "RAHMAN K",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775630540092.2288"
+    },
+    {
+      "rollNumber": "82112310452",
+      "name": "NASEER AHMED",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775630540092.9604"
+    },
+    {
+      "rollNumber": "82112310453",
+      "name": "SHAHID KHAN",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775630540092.5593"
+    },
+    {
+      "rollNumber": "82112310454",
+      "name": "JUNAID AKHTAR",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775630540092.2983"
+    },
+    {
+      "rollNumber": "82112310455",
+      "name": "SALMAN KHAN",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775630540092.132"
+    },
+    {
+      "rollNumber": "82112310456",
+      "name": "FARHAN ALI",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775630540092.7341"
+    },
+    {
+      "rollNumber": "82112310457",
+      "name": "WASIM AKRAM",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775630540092.8938"
+    },
+    {
+      "rollNumber": "82112310458",
+      "name": "SHOAIB MALIK",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775630540092.7273"
+    },
+    {
+      "rollNumber": "82112310459",
+      "name": "BILAL AHMED",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775630540092.1682"
+    },
+    {
+      "rollNumber": "82112310460",
+      "name": "TARIQ HUSSAIN",
+      "academicYear": "2025-2026",
+      "year": "IV YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775630540092.7815"
+    },
+    {
+      "rollNumber": "82112310401",
+      "name": "AARAV SHARMA",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775634308309.9553"
+    },
+    {
+      "rollNumber": "82112310402",
+      "name": "VIVAAN KUMAR",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775634308309.879"
+    },
+    {
+      "rollNumber": "82112310403",
+      "name": "ADITYA SINGH",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775634308309.4412"
+    },
+    {
+      "rollNumber": "82112310404",
+      "name": "ARJUN PATEL",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775634308309.2031"
+    },
+    {
+      "rollNumber": "82112310405",
+      "name": "REYANSH GUPTA",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775634308309.0503"
+    },
+    {
+      "rollNumber": "82112310406",
+      "name": "MOHAMMED ALI",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775634308309.9214"
+    },
+    {
+      "rollNumber": "82112310407",
+      "name": "SAI KRISHNA",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775634308309.2883"
+    },
+    {
+      "rollNumber": "82112310408",
+      "name": "ROHIT VERMA",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775634308309.6055"
+    },
+    {
+      "rollNumber": "82112310409",
+      "name": "KARTHIK REDDY",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775634308309.511"
+    },
+    {
+      "rollNumber": "82112310410",
+      "name": "RAHUL DAS",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775634308309.563"
+    },
+    {
+      "rollNumber": "82112310411",
+      "name": "VIKRAM MEHTA",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775634308309.637"
+    },
+    {
+      "rollNumber": "82112310412",
+      "name": "SANJAY NAIR",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775634308309.6099"
+    },
+    {
+      "rollNumber": "82112310413",
+      "name": "PRANAV IYER",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775634308309.311"
+    },
+    {
+      "rollNumber": "82112310414",
+      "name": "NIKHIL JAIN",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775634308309.53"
+    },
+    {
+      "rollNumber": "82112310415",
+      "name": "ANKIT AGARWAL",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775634308309.617"
+    },
+    {
+      "rollNumber": "82112310416",
+      "name": "HARSHA VARDHAN",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775634308309.1243"
+    },
+    {
+      "rollNumber": "82112310417",
+      "name": "DEEPAK YADAV",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775634308309.6274"
+    },
+    {
+      "rollNumber": "82112310418",
+      "name": "MANOJ KUMAR",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775634308309.7842"
+    },
+    {
+      "rollNumber": "82112310419",
+      "name": "SIDDHARTH ROY",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775634308309.5066"
+    },
+    {
+      "rollNumber": "82112310420",
+      "name": "VARUN CHAWLA",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775634308309.826"
+    },
+    {
+      "rollNumber": "82112310421",
+      "name": "AMIT MISHRA",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775634308309.7468"
+    },
+    {
+      "rollNumber": "82112310422",
+      "name": "RAKESH SHARMA",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775634308309.9514"
+    },
+    {
+      "rollNumber": "82112310423",
+      "name": "SURESH BABU",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775634308309.4258"
+    },
+    {
+      "rollNumber": "82112310424",
+      "name": "DINESH KUMAR",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775634308309.0718"
+    },
+    {
+      "rollNumber": "82112310425",
+      "name": "GOKUL RAJ",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775634308309.4668"
+    },
+    {
+      "rollNumber": "82112310426",
+      "name": "SURYA PRAKASH",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775634308309.4573"
+    },
+    {
+      "rollNumber": "82112310427",
+      "name": "AJAY DEV",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775634308309.1958"
+    },
+    {
+      "rollNumber": "82112310428",
+      "name": "VIGNESH S",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775634308309.366"
+    },
+    {
+      "rollNumber": "82112310429",
+      "name": "KIRAN KUMAR",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775634308309.3662"
+    },
+    {
+      "rollNumber": "82112310430",
+      "name": "BALAJI R",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775634308309.4353"
+    },
+    {
+      "rollNumber": "82112310431",
+      "name": "ARAVIND K",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775634308309.053"
+    },
+    {
+      "rollNumber": "82112310432",
+      "name": "NAVEEN RAJ",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775634308309.6587"
+    },
+    {
+      "rollNumber": "82112310433",
+      "name": "ASHWIN KUMAR",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775634308309.7532"
+    },
+    {
+      "rollNumber": "82112310434",
+      "name": "LOKESH P",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775634308309.7615"
+    },
+    {
+      "rollNumber": "82112310435",
+      "name": "PRADEEP KUMAR",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775634308309.074"
+    },
+    {
+      "rollNumber": "82112310436",
+      "name": "SUNIL REDDY",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775634308309.9727"
+    },
+    {
+      "rollNumber": "82112310437",
+      "name": "YOGESH KUMAR",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775634308309.4856"
+    },
+    {
+      "rollNumber": "82112310438",
+      "name": "TARUN SHARMA",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775634308309.748"
+    },
+    {
+      "rollNumber": "82112310439",
+      "name": "VIVEK ANAND",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775634308309.796"
+    },
+    {
+      "rollNumber": "82112310440",
+      "name": "GANESH KUMAR",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775634308309.2312"
+    },
+    {
+      "rollNumber": "82112310441",
+      "name": "ROHIT SINGH",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775634308309.0168"
+    },
+    {
+      "rollNumber": "82112310442",
+      "name": "ABHISHEK KUMAR",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775634308309.9636"
+    },
+    {
+      "rollNumber": "82112310443",
+      "name": "KUNAL SHAH",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775634308309.3606"
+    },
+    {
+      "rollNumber": "82112310444",
+      "name": "RAJAT VERMA",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775634308309.3604"
+    },
+    {
+      "rollNumber": "82112310445",
+      "name": "SAMEER KHAN",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775634308309.4426"
+    },
+    {
+      "rollNumber": "82112310446",
+      "name": "IRFAN AHMED",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775634308309.971"
+    },
+    {
+      "rollNumber": "82112310447",
+      "name": "FAIZAN ALI",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775634308309.774"
+    },
+    {
+      "rollNumber": "82112310448",
+      "name": "ZUBAIR KHAN",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775634308309.4429"
+    },
+    {
+      "rollNumber": "82112310449",
+      "name": "IMRAN SHEIKH",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775634308309.7417"
+    },
+    {
+      "rollNumber": "82112310450",
+      "name": "ASIF ALI",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775634308309.1067"
+    },
+    {
+      "rollNumber": "82112310451",
+      "name": "RAHMAN K",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775634308309.2358"
+    },
+    {
+      "rollNumber": "82112310452",
+      "name": "NASEER AHMED",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775634308309.613"
+    },
+    {
+      "rollNumber": "82112310453",
+      "name": "SHAHID KHAN",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775634308309.8694"
+    },
+    {
+      "rollNumber": "82112310454",
+      "name": "JUNAID AKHTAR",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775634308309.0745"
+    },
+    {
+      "rollNumber": "82112310455",
+      "name": "SALMAN KHAN",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775634308309.3262"
+    },
+    {
+      "rollNumber": "82112310456",
+      "name": "FARHAN ALI",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775634308309.619"
+    },
+    {
+      "rollNumber": "82112310457",
+      "name": "WASIM AKRAM",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775634308309.6367"
+    },
+    {
+      "rollNumber": "82112310458",
+      "name": "SHOAIB MALIK",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775634308309.761"
+    },
+    {
+      "rollNumber": "82112310459",
+      "name": "BILAL AHMED",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775634308309.6006"
+    },
+    {
+      "rollNumber": "82112310460",
+      "name": "TARIQ HUSSAIN",
+      "academicYear": "2025-2026",
+      "year": "I YEAR",
+      "department": "CSE",
+      "section": "A",
+      "_id": "1775634308309.4248"
+    }
+  ],
+  "marks": {
+    "2025-2026-III YEAR-CSE-B-CAT - I": {
+      "year": "III YEAR",
+      "academicYear": "2025-2026",
+      "department": "CSE",
+      "section": "B",
+      "catType": "CAT - I",
+      "subjects": [
+        {
+          "code": "CCS356",
+          "name": "Object Oriented Software Engineering"
+        },
+        {
+          "code": "CS3691",
+          "name": "Embedded Systems and IoT"
+        },
+        {
+          "code": "OEE351",
+          "name": "Renewable Energy System"
+        },
+        {
+          "code": "CCS360",
+          "name": "Recommender Systems"
+        },
+        {
+          "code": "CCS362",
+          "name": "Security and Privacy in Cloud"
+        },
+        {
+          "code": "CCS370",
+          "name": "UI and UX Design"
+        },
+        {
+          "code": "CCS368",
+          "name": "Stream Processing"
+        }
+      ],
+      "scores": {
+        "821123104062": {
+          "CCS356": "44",
+          "CS3691": "44",
+          "OEE351": "44",
+          "CCS360": "44",
+          "CCS362": "44",
+          "CCS370": "44",
+          "CCS368": "44"
+        },
+        "821123104063": {
+          "CCS356": "44"
+        },
+        "821123104064": {
+          "CCS356": "44"
+        },
+        "821123104065": {
+          "CCS356": "44"
+        },
+        "821123104066": {
+          "CCS356": ""
+        },
+        "821123104067": {
+          "CCS356": ""
+        },
+        "821123104068": {
+          "CCS356": ""
+        },
+        "821123104069": {
+          "CCS356": ""
+        },
+        "821123104070": {
+          "CCS356": ""
+        },
+        "821123104071": {
+          "CCS356": ""
+        },
+        "821123104072": {
+          "CCS356": ""
+        },
+        "821123104074": {
+          "CCS356": ""
+        },
+        "821123104075": {
+          "CCS356": ""
+        },
+        "821123104076": {
+          "CCS356": ""
+        },
+        "821123104077": {
+          "CCS356": ""
+        },
+        "821123104078": {
+          "CCS356": ""
+        },
+        "821123104079": {
+          "CCS356": ""
+        },
+        "821123104080": {
+          "CCS356": ""
+        },
+        "821123104081": {
+          "CCS356": ""
+        },
+        "821123104082": {
+          "CCS356": ""
+        },
+        "821123104084": {
+          "CCS356": ""
+        },
+        "821123104085": {
+          "CCS356": ""
+        },
+        "821123104086": {
+          "CCS356": ""
+        },
+        "821123104087": {
+          "CCS356": ""
+        },
+        "821123104088": {
+          "CCS356": ""
+        },
+        "821123104089": {
+          "CCS356": ""
+        },
+        "821123104090": {
+          "CCS356": ""
+        },
+        "821123104092": {
+          "CCS356": ""
+        },
+        "821123104093": {
+          "CCS356": ""
+        },
+        "821123104094": {
+          "CCS356": ""
+        },
+        "821123104095": {
+          "CCS356": ""
+        },
+        "821123104096": {
+          "CCS356": ""
+        },
+        "821123104097": {
+          "CCS356": ""
+        },
+        "821123104098": {
+          "CCS356": ""
+        },
+        "821123104099": {
+          "CCS356": ""
+        },
+        "821123104100": {
+          "CCS356": ""
+        },
+        "821123104101": {
+          "CCS356": ""
+        },
+        "821123104102": {
+          "CCS356": ""
+        },
+        "821123104103": {
+          "CCS356": ""
+        },
+        "821123104104": {
+          "CCS356": ""
+        },
+        "821123104105": {
+          "CCS356": ""
+        },
+        "821123104106": {
+          "CCS356": ""
+        },
+        "821123104107": {
+          "CCS356": ""
+        },
+        "821123104108": {
+          "CCS356": ""
+        },
+        "821123104109": {
+          "CCS356": ""
+        },
+        "821123104110": {
+          "CCS356": ""
+        },
+        "821123104111": {
+          "CCS356": ""
+        },
+        "821123104112": {
+          "CCS356": ""
+        },
+        "821123104113": {
+          "CCS356": ""
+        },
+        "821123104114": {
+          "CCS356": ""
+        },
+        "821123104115": {
+          "CCS356": ""
+        },
+        "821123104116": {
+          "CCS356": ""
+        },
+        "821123104117": {
+          "CCS356": ""
+        },
+        "821123104118": {
+          "CCS356": ""
+        },
+        "821123104119": {
+          "CCS356": ""
+        },
+        "821123104120": {
+          "CCS356": ""
+        },
+        "821123104121": {
+          "CCS356": ""
+        },
+        "821123104122": {
+          "CCS356": ""
+        },
+        "821123104501": {
+          "CCS356": ""
+        }
+      },
+      "subjectDates": {
+        "CCS356": "12.06.26"
+      }
+    },
+    "2025-2026-II YEAR-CSE-B-CAT - I": {
+      "year": "II YEAR",
+      "department": "CSE",
+      "section": "B",
+      "catType": "CAT - I",
+      "subjects": [
+        {
+          "code": "24CSPC401",
+          "name": "Design and Analysis of Algorithms"
+        },
+        {
+          "code": "24CSPC402",
+          "name": "Operating Systems"
+        },
+        {
+          "code": "24CSPC403",
+          "name": "Object Oriented Software Engineering"
+        },
+        {
+          "code": "24CSPC404",
+          "name": "Artificial Intelligence and Machine Learning"
+        },
+        {
+          "code": "24CSPC405",
+          "name": "Full Stack Technologies"
+        },
+        {
+          "code": "24SHHS401",
+          "name": "Universal Human Values-II"
+        }
+      ],
+      "scores": {},
+      "subjectDates": {
+        "CCS356": "12.06.26"
+      },
+      "academicYear": "2025-2026"
+    },
+    "2025-2026-III YEAR-CSE-B-CAT - II": {
+      "year": "III YEAR",
+      "department": "CSE",
+      "section": "B",
+      "catType": "CAT - II",
+      "subjects": [
+        {
+          "code": "CCS356",
+          "name": "Object Oriented Software Engineering"
+        },
+        {
+          "code": "CS3691",
+          "name": "Embedded Systems and IoT"
+        },
+        {
+          "code": "OEE351",
+          "name": "Renewable Energy System"
+        },
+        {
+          "code": "CCS360",
+          "name": "Recommender Systems"
+        },
+        {
+          "code": "CCS362",
+          "name": "Security and Privacy in Cloud"
+        },
+        {
+          "code": "CCS370",
+          "name": "UI and UX Design"
+        },
+        {
+          "code": "CCS368",
+          "name": "Stream Processing"
+        }
+      ],
+      "scores": {
+        "821123104062": {
+          "CCS356": "33",
+          "CS3691": "30",
+          "OEE351": "30",
+          "CCS360": "33",
+          "CCS362": "33",
+          "CCS370": "33",
+          "CCS368": "33"
+        }
+      },
+      "subjectDates": {
+        "CCS356": "12.06.26"
+      },
+      "academicYear": "2025-2026"
+    },
+    "2025-2026-IV YEAR-CSE-A-CAT - I": {
+      "year": "IV YEAR",
+      "academicYear": "2025-2026",
+      "department": "CSE",
+      "section": "A",
+      "catType": "CAT - I",
+      "subjects": [
+        {
+          "code": "CS3791",
+          "name": "Project Work - Phase I"
+        },
+        {
+          "code": "CCS331",
+          "name": "Cloud Computing"
+        },
+        {
+          "code": "CCS341",
+          "name": "Data Warehousing and Data Mining"
+        },
+        {
+          "code": "CCS334",
+          "name": "Cryptography and Network Security"
+        },
+        {
+          "code": "CCS335",
+          "name": "Social Network Analysis"
+        }
+      ],
+      "scores": {},
+      "subjectDates": {
+        "CCS356": "12.06.26"
+      }
+    },
+    "2025-2026-III YEAR-CSE-B-CAT - III": {
+      "year": "III YEAR",
+      "department": "CSE",
+      "section": "B",
+      "catType": "CAT - III",
+      "subjects": [
+        {
+          "code": "CCS356",
+          "name": "Object Oriented Software Engineering"
+        },
+        {
+          "code": "CS3691",
+          "name": "Embedded Systems and IoT"
+        },
+        {
+          "code": "OEE351",
+          "name": "Renewable Energy System"
+        },
+        {
+          "code": "CCS360",
+          "name": "Recommender Systems"
+        },
+        {
+          "code": "CCS362",
+          "name": "Security and Privacy in Cloud"
+        },
+        {
+          "code": "CCS370",
+          "name": "UI and UX Design"
+        },
+        {
+          "code": "CCS368",
+          "name": "Stream Processing"
+        }
+      ],
+      "scores": {
+        "821123104062": {
+          "CCS356": "44",
+          "CS3691": "44",
+          "OEE351": "44",
+          "CCS360": "44",
+          "CCS362": "44",
+          "CCS370": "44",
+          "CCS368": "44"
+        }
+      },
+      "subjectDates": {
+        "CCS356": "12.06.26"
+      },
+      "academicYear": "2025-2026"
+    },
+    "2025-2026-I YEAR-CSE-A-CAT - I": {
+      "year": "I YEAR",
+      "academicYear": "2025-2026",
+      "department": "CSE",
+      "section": "A",
+      "catType": "CAT - I",
+      "subjects": [
+        {
+          "code": "HS3152",
+          "name": "Professional English - I"
+        },
+        {
+          "code": "MA3151",
+          "name": "Matrices and Calculus"
+        },
+        {
+          "code": "PH3151",
+          "name": "Engineering Physics"
+        },
+        {
+          "code": "CY3151",
+          "name": "Engineering Chemistry"
+        },
+        {
+          "code": "GE3151",
+          "name": "Problem Solving and Python Programming"
+        },
+        {
+          "code": "GE3152",
+          "name": "Tamil Heritage"
+        }
+      ],
+      "scores": {},
+      "subjectDates": {
+        "CCS356": "12.06.26"
+      }
+    },
+    "2025-2026-I YEAR-CSE-B-CAT - I": {
+      "year": "I YEAR",
+      "academicYear": "2025-2026",
+      "department": "CSE",
+      "section": "B",
+      "catType": "CAT - I",
+      "subjects": [
+        {
+          "code": "HS3152",
+          "name": "Professional English - I"
+        },
+        {
+          "code": "MA3151",
+          "name": "Matrices and Calculus"
+        },
+        {
+          "code": "PH3151",
+          "name": "Engineering Physics"
+        },
+        {
+          "code": "CY3151",
+          "name": "Engineering Chemistry"
+        },
+        {
+          "code": "GE3151",
+          "name": "Problem Solving and Python Programming"
+        },
+        {
+          "code": "GE3152",
+          "name": "Tamil Heritage"
+        }
+      ],
+      "scores": {},
+      "subjectDates": {
+        "CCS356": "12.06.26"
+      }
+    },
+    "2024-2025-III YEAR-CSE-B-CAT - I": {
+      "year": "III YEAR",
+      "academicYear": "2024-2025",
+      "department": "CSE",
+      "section": "B",
+      "catType": "CAT - I",
+      "subjects": [
+        {
+          "code": "CCS356",
+          "name": "Object Oriented Software Engineering"
+        },
+        {
+          "code": "CS3691",
+          "name": "Embedded Systems and IoT"
+        },
+        {
+          "code": "OEE351",
+          "name": "Renewable Energy System"
+        },
+        {
+          "code": "CCS360",
+          "name": "Recommender Systems"
+        },
+        {
+          "code": "CCS362",
+          "name": "Security and Privacy in Cloud"
+        },
+        {
+          "code": "CCS370",
+          "name": "UI and UX Design"
+        },
+        {
+          "code": "CCS368",
+          "name": "Stream Processing"
+        }
+      ],
+      "scores": {
+        "821123104062": {
+          "CCS356": "AB",
+          "CS3691": "AB",
+          "OEE351": "22",
+          "CCS360": "33",
+          "CCS362": "34",
+          "CCS370": "50",
+          "CCS368": "33"
+        },
+        "821123104063": {
+          "CCS356": "AB",
+          "CS3691": "AB",
+          "OEE351": "AB",
+          "CCS360": "AB",
+          "CCS362": "AB",
+          "CCS370": "AB",
+          "CCS368": "AB"
+        },
+        "821123104064": {
+          "CCS356": "23",
+          "CS3691": "3",
+          "OEE351": "34",
+          "CCS360": "34",
+          "CCS362": "34",
+          "CCS370": "34",
+          "CCS368": "34"
+        },
+        "821123104065": {
+          "CCS356": "44",
+          "CS3691": "3",
+          "OEE351": "50",
+          "CCS360": "44",
+          "CCS362": "44",
+          "CCS370": "44",
+          "CCS368": "44"
+        },
+        "821123104066": {
+          "CCS356": "44",
+          "CS3691": "3",
+          "OEE351": "33",
+          "CCS360": "50",
+          "CCS362": "50",
+          "CCS370": "50",
+          "CCS368": "50"
+        },
+        "821123104067": {
+          "CCS356": "44",
+          "CS3691": "34",
+          "OEE351": "23",
+          "CCS360": "45",
+          "CCS362": "45",
+          "CCS370": "34",
+          "CCS368": "23"
+        },
+        "821123104068": {
+          "CCS356": "4",
+          "CS3691": "50",
+          "OEE351": "50",
+          "CCS360": "23",
+          "CCS362": "23",
+          "CCS370": "23",
+          "CCS368": "45"
+        },
+        "821123104069": {
+          "CCS356": "4",
+          "CS3691": "23",
+          "OEE351": "50",
+          "CCS360": "45",
+          "CCS362": "45",
+          "CCS370": "45",
+          "CCS368": "50"
+        },
+        "821123104070": {
+          "CCS356": "44",
+          "CS3691": "45",
+          "OEE351": "34",
+          "CCS360": "34",
+          "CCS362": "34",
+          "CCS370": "34",
+          "CCS368": "34"
+        },
+        "821123104071": {
+          "CCS356": "4",
+          "CS3691": "50",
+          "OEE351": "45",
+          "CCS360": "45",
+          "CCS362": "45",
+          "CCS370": "45",
+          "CCS368": "45"
+        },
+        "821123104072": {
+          "CCS356": "23",
+          "CS3691": "50",
+          "OEE351": "45",
+          "CCS360": "45",
+          "CCS362": "45",
+          "CCS370": "45",
+          "CCS368": "32"
+        },
+        "821123104074": {
+          "CCS356": "23",
+          "CS3691": "50",
+          "OEE351": "45",
+          "CCS360": "34",
+          "CCS362": "34",
+          "CCS370": "34",
+          "CCS368": "34"
+        },
+        "821123104075": {
+          "CCS356": "49",
+          "CS3691": "50",
+          "OEE351": "23",
+          "CCS360": "23",
+          "CCS362": "23",
+          "CCS370": "34",
+          "CCS368": "45"
+        },
+        "821123104076": {
+          "CCS356": "44",
+          "CS3691": "22",
+          "OEE351": "44",
+          "CCS360": "4",
+          "CCS362": "4",
+          "CCS370": "44",
+          "CCS368": "44"
+        },
+        "821123104077": {
+          "CCS356": "44",
+          "CS3691": "2",
+          "OEE351": "22",
+          "CCS360": "22",
+          "CCS362": "33",
+          "CCS370": "44",
+          "CCS368": "50"
+        },
+        "821123104078": {
+          "CCS356": "50",
+          "CS3691": "2",
+          "OEE351": "33",
+          "CCS360": "33",
+          "CCS362": "33",
+          "CCS370": "33",
+          "CCS368": "3"
+        },
+        "821123104079": {
+          "CCS356": "33",
+          "CS3691": "22",
+          "OEE351": "33",
+          "CCS360": "23",
+          "CCS362": "34",
+          "CCS370": "45",
+          "CCS368": "45"
+        },
+        "821123104080": {
+          "CCS356": "33",
+          "CS3691": "50",
+          "OEE351": "22",
+          "CCS360": "50",
+          "CCS362": "44",
+          "CCS370": "50",
+          "CCS368": "33"
+        },
+        "821123104081": {
+          "CCS356": "33",
+          "CS3691": "50",
+          "OEE351": "33",
+          "CCS360": "22",
+          "CCS362": "34",
+          "CCS370": "23",
+          "CCS368": "12"
+        },
+        "821123104082": {
+          "CCS356": "33",
+          "CS3691": "33",
+          "OEE351": "22",
+          "CCS360": "33",
+          "CCS362": "23",
+          "CCS370": "23",
+          "CCS368": "23"
+        },
+        "821123104084": {
+          "CCS356": "50",
+          "CS3691": "33",
+          "OEE351": "34",
+          "CCS360": "34",
+          "CCS362": "34",
+          "CCS370": "34",
+          "CCS368": "34"
+        },
+        "821123104085": {
+          "CCS356": "44",
+          "CS3691": "33",
+          "OEE351": "33",
+          "CCS360": "44",
+          "CCS362": "50",
+          "CCS370": "22",
+          "CCS368": "22"
+        },
+        "821123104086": {
+          "CCS356": "44",
+          "CS3691": "33",
+          "OEE351": "44",
+          "CCS360": "44",
+          "CCS362": "44",
+          "CCS370": "44",
+          "CCS368": "44"
+        },
+        "821123104087": {
+          "CCS356": "44",
+          "CS3691": "33",
+          "OEE351": "22",
+          "CCS360": "34",
+          "CCS362": "34",
+          "CCS370": "34",
+          "CCS368": "34"
+        },
+        "821123104088": {
+          "CCS356": "44",
+          "CS3691": "33",
+          "OEE351": "45",
+          "CCS360": "45",
+          "CCS362": "45",
+          "CCS370": "45",
+          "CCS368": "23"
+        },
+        "821123104089": {
+          "CCS356": "44",
+          "CS3691": "50",
+          "OEE351": "23",
+          "CCS360": "23",
+          "CCS362": "23",
+          "CCS370": "4",
+          "CCS368": "45"
+        },
+        "821123104090": {
+          "CCS356": "44",
+          "CS3691": "33",
+          "OEE351": "45",
+          "CCS360": "45",
+          "CCS362": "45",
+          "CCS370": "50",
+          "CCS368": "45"
+        },
+        "821123104092": {
+          "CCS356": "44",
+          "CS3691": "33",
+          "OEE351": "33",
+          "CCS360": "33",
+          "CCS362": "33",
+          "CCS370": "33",
+          "CCS368": "33"
+        },
+        "821123104093": {
+          "CCS356": "44",
+          "CS3691": "33",
+          "OEE351": "50",
+          "CCS360": "44",
+          "CCS362": "44",
+          "CCS370": "44",
+          "CCS368": "44"
+        },
+        "821123104094": {
+          "CCS356": "44",
+          "CS3691": "33",
+          "OEE351": "23",
+          "CCS360": "23",
+          "CCS362": "45",
+          "CCS370": "35",
+          "CCS368": "AB"
+        },
+        "821123104095": {
+          "CCS356": "44",
+          "CS3691": "33",
+          "OEE351": "45",
+          "CCS360": "45",
+          "CCS362": "45",
+          "CCS370": "35",
+          "CCS368": "34"
+        },
+        "821123104096": {
+          "CCS356": "44",
+          "CS3691": "33",
+          "CCS360": "23",
+          "CCS362": "23",
+          "CCS370": "33",
+          "CCS368": "33",
+          "OEE351": "50"
+        },
+        "821123104097": {
+          "CCS356": "44",
+          "CS3691": "50",
+          "OEE351": "23",
+          "CCS360": "33",
+          "CCS362": "33",
+          "CCS370": "33",
+          "CCS368": "33"
+        },
+        "821123104098": {
+          "CCS356": "44",
+          "CS3691": "33",
+          "OEE351": "44",
+          "CCS360": "44",
+          "CCS362": "44",
+          "CCS370": "44",
+          "CCS368": "44"
+        },
+        "821123104099": {
+          "CCS356": "44",
+          "CS3691": "33",
+          "OEE351": "50",
+          "CCS360": "50",
+          "CCS362": "50",
+          "CCS370": "50",
+          "CCS368": "50"
+        },
+        "821123104100": {
+          "CCS356": "44",
+          "CS3691": "33",
+          "OEE351": "33",
+          "CCS360": "33",
+          "CCS362": "43",
+          "CCS370": "34",
+          "CCS368": "34"
+        },
+        "821123104101": {
+          "CCS356": "44",
+          "CS3691": "33",
+          "OEE351": "44",
+          "CCS360": "34",
+          "CCS362": "34",
+          "CCS370": "34",
+          "CCS368": "50"
+        },
+        "821123104102": {
+          "CCS356": "44",
+          "CS3691": "33",
+          "OEE351": "45",
+          "CCS360": "45",
+          "CCS362": "23",
+          "CCS370": "34",
+          "CCS368": "34"
+        },
+        "821123104103": {
+          "CCS356": "44",
+          "CS3691": "33",
+          "OEE351": "34",
+          "CCS360": "34",
+          "CCS362": "34",
+          "CCS370": "34",
+          "CCS368": "34"
+        },
+        "821123104104": {
+          "CCS356": "44",
+          "CS3691": "33",
+          "OEE351": "50",
+          "CCS360": "34",
+          "CCS362": "24",
+          "CCS370": "34",
+          "CCS368": "34"
+        },
+        "821123104105": {
+          "CCS356": "44",
+          "CS3691": "33",
+          "OEE351": "AB",
+          "CCS360": "4",
+          "CCS362": "50",
+          "CCS370": "34",
+          "CCS368": "AB"
+        },
+        "821123104106": {
+          "CCS356": "44",
+          "CS3691": "33",
+          "OEE351": "45",
+          "CCS360": "45",
+          "CCS362": "34",
+          "CCS370": "34",
+          "CCS368": "34"
+        },
+        "821123104107": {
+          "CCS356": "44",
+          "CS3691": "50",
+          "OEE351": "34",
+          "CCS360": "34",
+          "CCS362": "34",
+          "CCS370": "34",
+          "CCS368": "34"
+        },
+        "821123104108": {
+          "CCS356": "44",
+          "CS3691": "50",
+          "OEE351": "45",
+          "CCS360": "45",
+          "CCS362": "45",
+          "CCS370": "35",
+          "CCS368": "34"
+        },
+        "821123104109": {
+          "CCS356": "44",
+          "CS3691": "33",
+          "OEE351": "45",
+          "CCS360": "45",
+          "CCS362": "45",
+          "CCS370": "45",
+          "CCS368": "45"
+        },
+        "821123104110": {
+          "CCS356": "50",
+          "CS3691": "33",
+          "OEE351": "44",
+          "CCS360": "44",
+          "CCS362": "4",
+          "CCS370": "4",
+          "CCS368": "4"
+        },
+        "821123104111": {
+          "CCS356": "4",
+          "CS3691": "33",
+          "OEE351": "22",
+          "CCS360": "33",
+          "CCS362": "33",
+          "CCS370": "33",
+          "CCS368": "33"
+        },
+        "821123104112": {
+          "CCS356": "23",
+          "CS3691": "50",
+          "OEE351": "44",
+          "CCS360": "50",
+          "CCS362": "44",
+          "CCS370": "44",
+          "CCS368": "44"
+        },
+        "821123104113": {
+          "CCS356": "33",
+          "CS3691": "33",
+          "OEE351": "AB",
+          "CCS360": "4",
+          "CCS362": "44",
+          "CCS370": "44",
+          "CCS368": "44"
+        },
+        "821123104114": {
+          "CCS356": "33",
+          "CS3691": "33",
+          "OEE351": "50",
+          "CCS360": "34",
+          "CCS362": "34",
+          "CCS370": "50",
+          "CCS368": "34"
+        },
+        "821123104115": {
+          "CCS356": "33",
+          "CS3691": "33",
+          "OEE351": "AB",
+          "CCS360": "33",
+          "CCS362": "33",
+          "CCS370": "33",
+          "CCS368": "44"
+        },
+        "821123104116": {
+          "CCS356": "33",
+          "CS3691": "33",
+          "OEE351": "33",
+          "CCS360": "33",
+          "CCS362": "33",
+          "CCS370": "33",
+          "CCS368": "33"
+        },
+        "821123104117": {
+          "CCS356": "33",
+          "CS3691": "33",
+          "OEE351": "AB",
+          "CCS360": "AB",
+          "CCS362": "33",
+          "CCS370": "33",
+          "CCS368": "33"
+        },
+        "821123104118": {
+          "CCS356": "33",
+          "CS3691": "33",
+          "OEE351": "34",
+          "CCS360": "34",
+          "CCS362": "50",
+          "CCS370": "34",
+          "CCS368": "34"
+        },
+        "821123104119": {
+          "CCS356": "33",
+          "CS3691": "44",
+          "OEE351": "33",
+          "CCS360": "33",
+          "CCS362": "33",
+          "CCS370": "3",
+          "CCS368": "33"
+        },
+        "821123104120": {
+          "CCS356": "33",
+          "CS3691": "44",
+          "OEE351": "45",
+          "CCS360": "45",
+          "CCS362": "45",
+          "CCS370": "45",
+          "CCS368": "45"
+        },
+        "821123104121": {
+          "CCS356": "3",
+          "CS3691": "44",
+          "OEE351": "34",
+          "CCS360": "34",
+          "CCS362": "24",
+          "CCS370": "34",
+          "CCS368": "34"
+        },
+        "821123104122": {
+          "CCS356": "34",
+          "CS3691": "44",
+          "OEE351": "34",
+          "CCS360": "34",
+          "CCS362": "34",
+          "CCS370": "3",
+          "CCS368": "4"
+        },
+        "821123104501": {
+          "CCS356": "3",
+          "CS3691": "44",
+          "OEE351": "AB",
+          "CCS360": "33",
+          "CCS362": "23",
+          "CCS370": "12",
+          "CCS368": "23"
+        }
+      },
+      "subjectDates": {
+        "CCS356": "12.02.26",
+        "CS3691": "13.02.26",
+        "OEE351": "14.02.26",
+        "CCS360": "15.02.26",
+        "CCS362": "16.02.26",
+        "CCS370": "17.02.26",
+        "CCS368": "19.02.26"
+      }
+    },
+    "2025-2026-IV YEAR-CSE-B-CAT - I": {
+      "year": "IV YEAR",
+      "academicYear": "2025-2026",
+      "department": "CSE",
+      "section": "B",
+      "catType": "CAT - I",
+      "subjects": [
+        {
+          "code": "CS3791",
+          "name": "Project Work - Phase I"
+        },
+        {
+          "code": "CCS331",
+          "name": "Cloud Computing"
+        },
+        {
+          "code": "CCS341",
+          "name": "Data Warehousing and Data Mining"
+        },
+        {
+          "code": "CCS334",
+          "name": "Cryptography and Network Security"
+        },
+        {
+          "code": "CCS335",
+          "name": "Social Network Analysis"
+        }
+      ],
+      "scores": {},
+      "subjectDates": {
+        "CCS356": "12.06.26"
+      }
+    },
+    "2024-2025-III YEAR-CSE-A-CAT - I": {
+      "year": "III YEAR",
+      "academicYear": "2024-2025",
+      "department": "CSE",
+      "section": "A",
+      "catType": "CAT - I",
+      "subjects": [
+        {
+          "code": "CCS356",
+          "name": "Object Oriented Software Engineering"
+        },
+        {
+          "code": "CS3691",
+          "name": "Embedded Systems and IoT"
+        },
+        {
+          "code": "OEE351",
+          "name": "Renewable Energy System"
+        },
+        {
+          "code": "CCS360",
+          "name": "Recommender Systems"
+        },
+        {
+          "code": "CCS362",
+          "name": "Security and Privacy in Cloud"
+        },
+        {
+          "code": "CCS370",
+          "name": "UI and UX Design"
+        },
+        {
+          "code": "CCS368",
+          "name": "Stream Processing"
+        }
+      ],
+      "scores": {
+        "821123104001": {
+          "CCS356": "AB"
+        },
+        "821123104002": {
+          "CCS356": "44"
+        },
+        "821123104003": {
+          "CCS356": "44"
+        },
+        "821123104004": {
+          "CCS356": "44"
+        },
+        "821123104005": {
+          "CCS356": "44"
+        },
+        "821123104006": {
+          "CCS356": "34"
+        },
+        "821123104007": {
+          "CCS356": "34"
+        },
+        "821123104008": {
+          "CCS356": "34"
+        },
+        "821123104009": {
+          "CCS356": "43"
+        },
+        "821123104010": {
+          "CCS356": "32"
+        },
+        "821123104011": {
+          "CCS356": "32"
+        },
+        "821123104012": {
+          "CCS356": "12"
+        },
+        "821123104013": {
+          "CCS356": "23"
+        },
+        "821123104014": {
+          "CCS356": "23"
+        },
+        "821123104015": {
+          "CCS356": "23"
+        },
+        "821123104016": {
+          "CCS356": "23"
+        },
+        "821123104017": {
+          "CCS356": "2"
+        },
+        "821123104019": {
+          "CCS356": "3"
+        },
+        "821123104020": {
+          "CCS356": "45"
+        },
+        "821123104021": {
+          "CCS356": "45"
+        },
+        "821123104023": {
+          "CCS356": "4"
+        },
+        "821123104024": {
+          "CCS356": "5"
+        },
+        "821123104025": {
+          "CCS356": "45"
+        },
+        "821123104026": {
+          "CCS356": "34"
+        },
+        "821123104027": {
+          "CCS356": "34"
+        },
+        "821123104028": {
+          "CCS356": "23"
+        },
+        "821123104029": {
+          "CCS356": "23"
+        },
+        "821123104030": {
+          "CCS356": "23"
+        },
+        "821123104031": {
+          "CCS356": "2"
+        },
+        "821123104032": {
+          "CCS356": "3"
+        },
+        "821123104033": {
+          "CCS356": "23"
+        },
+        "821123104034": {
+          "CCS356": "2"
+        },
+        "821123104035": {
+          "CCS356": "3"
+        },
+        "821123104036": {
+          "CCS356": "2"
+        },
+        "821123104037": {
+          "CCS356": "33"
+        },
+        "821123104039": {
+          "CCS356": ""
+        },
+        "821123104040": {
+          "CCS356": ""
+        },
+        "821123104041": {
+          "CCS356": ""
+        },
+        "821123104042": {
+          "CCS356": ""
+        },
+        "821123104043": {
+          "CCS356": ""
+        },
+        "821123104044": {
+          "CCS356": ""
+        },
+        "821123104045": {
+          "CCS356": ""
+        },
+        "821123104046": {
+          "CCS356": ""
+        },
+        "821123104047": {
+          "CCS356": ""
+        },
+        "821123104048": {
+          "CCS356": ""
+        },
+        "821123104049": {
+          "CCS356": ""
+        },
+        "821123104050": {
+          "CCS356": ""
+        },
+        "821123104051": {
+          "CCS356": ""
+        },
+        "821123104052": {
+          "CCS356": ""
+        },
+        "821123104053": {
+          "CCS356": ""
+        },
+        "821123104054": {
+          "CCS356": ""
+        },
+        "821123104055": {
+          "CCS356": ""
+        },
+        "821123104057": {
+          "CCS356": ""
+        },
+        "821123104058": {
+          "CCS356": ""
+        },
+        "821123104059": {
+          "CCS356": ""
+        },
+        "821123104060": {
+          "CCS356": ""
+        },
+        "821123104061": {
+          "CCS356": ""
+        }
+      },
+      "subjectDates": {
+        "CCS356": "12.06.26"
+      }
+    }
+  },
+  "subjects": [
+    {
+      "code": "CCS356",
+      "name": "Object Oriented Software Engineering",
+      "department": "CSE",
+      "year": "III YEAR",
+      "shortName": "OOSE"
+    },
+    {
+      "code": "CS3691",
+      "name": "Embedded Systems and IoT",
+      "department": "CSE",
+      "year": "III YEAR",
+      "shortName": "ES & IOT"
+    },
+    {
+      "code": "OEE351",
+      "name": "Renewable Energy System",
+      "department": "CSE",
+      "year": "III YEAR",
+      "shortName": "RES"
+    },
+    {
+      "code": "CCS360",
+      "name": "Recommender Systems",
+      "department": "CSE",
+      "year": "III YEAR",
+      "shortName": "RS"
+    },
+    {
+      "code": "CCS362",
+      "name": "Security and Privacy in Cloud",
+      "department": "CSE",
+      "year": "III YEAR",
+      "shortName": "SPC"
+    },
+    {
+      "code": "CCS370",
+      "name": "UI and UX Design",
+      "department": "CSE",
+      "year": "III YEAR",
+      "shortName": "UI & UX"
+    },
+    {
+      "code": "CCS368",
+      "name": "Stream Processing",
+      "department": "CSE",
+      "year": "III YEAR",
+      "shortName": "SP"
+    },
+    {
+      "code": "MX3089",
+      "name": "Industrial Safety",
+      "department": "CSE",
+      "year": "III YEAR",
+      "shortName": "IS"
+    },
+    {
+      "code": "24CSPC401",
+      "name": "Design and Analysis of Algorithms",
+      "department": "CSE",
+      "year": "II YEAR",
+      "shortName": "DAA"
+    },
+    {
+      "code": "24CSPC402",
+      "name": "Operating Systems",
+      "department": "CSE",
+      "year": "II YEAR",
+      "shortName": "OS"
+    },
+    {
+      "code": "24CSPC403",
+      "name": "Object Oriented Software Engineering",
+      "department": "CSE",
+      "year": "II YEAR",
+      "shortName": "OOSE"
+    },
+    {
+      "code": "24CSPC404",
+      "name": "Artificial Intelligence and Machine Learning",
+      "department": "CSE",
+      "year": "II YEAR",
+      "shortName": "AIML"
+    },
+    {
+      "code": "24CSPC405",
+      "name": "Full Stack Technologies",
+      "department": "CSE",
+      "year": "II YEAR",
+      "shortName": "FST"
+    },
+    {
+      "code": "24SHHS401",
+      "name": "Universal Human Values-II",
+      "department": "CSE",
+      "year": "II YEAR",
+      "shortName": "UHV"
+    }
+  ]
+}
