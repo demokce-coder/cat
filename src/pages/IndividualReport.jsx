@@ -287,7 +287,8 @@ const IndividualReport = () => {
                                                 onChange={(e) => {
                                                     let val = e.target.value.toUpperCase();
                                                     if (val !== 'AB' && !isNaN(val) && parseFloat(val) > 50) {
-                                                        val = '50';
+                                                        alert("Invalid Number! Marks cannot exceed 50.");
+                                                        val = '0';
                                                     }
                                                     setMarksData({...marksData, [s.rollNumber]: val});
                                                 }}

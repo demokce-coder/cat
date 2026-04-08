@@ -776,7 +776,10 @@ const Students = () => {
                                                         if (isNumeric) {
                                                             const num = parseFloat(inputVal);
                                                             if (num < 0) return; // Block negative
-                                                            if (num > 50) inputVal = '50'; // Cap at 50
+                                                            if (num > 50) {
+                                                                alert("Invalid Number! Marks cannot exceed 50.");
+                                                                inputVal = '0'; // Reset to 0 as requested
+                                                            }
                                                         }
                                                         const m = {...marksData};
                                                         if (!m[s.rollNumber]) m[s.rollNumber] = {};

@@ -13,13 +13,11 @@ const sectionMarkSchema = new mongoose.Schema({
         examDate: String
     }],
     scores: {
-        type: Map,
-        of: Map, // RollNumber -> { SubjectCode -> Mark }
+        type: mongoose.Schema.Types.Mixed,
         default: {}
     },
     subjectDates: {
-        type: Map,
-        of: String, // SubjectCode -> ExamDate
+        type: mongoose.Schema.Types.Mixed,
         default: {}
     },
     updatedAt: { type: Date, default: Date.now }
