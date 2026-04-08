@@ -139,15 +139,19 @@ const IndividualReport = () => {
                 updatedDates[selectedSubject.code] = examDate;
             }
 
-            await api.post('/marks/bulk-save', { 
+            const response = await api.post('/marks/bulk-save', { 
                 ...config, 
                 subjects: updatedSubjectsList, 
                 scores: updatedScores,
                 subjectDates: updatedDates
             });
 
-            setSuccess('Individual Report Synchronized');
-            setTimeout(() => setSuccess(''), 4000);
+            if (response.data.success) {
+                setSuccess('Individual Report Synchronized');
+                setTimeout(() => setSuccess(''), 4000);
+            } else {
+                throw new Error(response.data.message || "Server refused to save data.");
+            }
             
             // Refresh local state
             fetchSectionData();

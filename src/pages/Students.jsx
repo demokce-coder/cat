@@ -171,14 +171,19 @@ const Students = () => {
         const [dept, section] = selectedDept.split(' ');
         const config = { academicYear: selectedAcademicYear, year: selectedYear, department: dept, section, catType };
         try {
-            await api.post('/marks/bulk-save', { 
+            const response = await api.post('/marks/bulk-save', { 
                 ...config, 
                 subjects, 
                 scores: marksData,
                 subjectDates 
             });
-            setSuccess('Records synchronized successfully');
-            setTimeout(() => setSuccess(''), 4000);
+
+            if (response.data.success) {
+                setSuccess('Records synchronized successfully');
+                setTimeout(() => setSuccess(''), 4000);
+            } else {
+                throw new Error(response.data.message || "Failed to sync records.");
+            }
         } catch (err) { alert(err.message); } finally { setLoading(false); }
     };
 

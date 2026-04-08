@@ -25,17 +25,22 @@ router.get('/section', async (req, res) => {
     const { dbStatus, mockDb } = req.app.locals;
     const { year, academicYear, department, section, catType } = req.query;
 
+    console.log(`🔍 [FETCH] Requesting marks for ${year} ${department} ${section} - ${catType} (${academicYear})`);
     syncMockDb(req);
 
     if (!dbStatus.connected) {
         const key = `${academicYear || '2025-2026'}-${year}-${department}-${section}-${catType}`;
-        return res.json({ success: true, data: mockDb.marks[key] || null, connected: false });
+        const data = mockDb.marks[key] || null;
+        console.log(`📦 [MOCK FETCH] Result: ${data ? 'Found' : 'Empty'}`);
+        return res.json({ success: true, data, connected: false });
     }
 
     try {
         const data = await SectionMarks.findOne({ academicYear: academicYear || '2025-2026', year, department, section, catType });
+        console.log(`🗄️ [DB FETCH] Result: ${data ? 'Found' : 'Empty'}`);
         res.json({ success: true, data, connected: true });
     } catch (err) {
+        console.error("❌ Fetch error:", err);
         res.status(500).json({ success: false, message: 'Server error', error: err.message });
     }
 });
@@ -65,10 +70,10 @@ router.post('/bulk-save', async (req, res) => {
     }
 
     if (!dbStatus.connected) {
+        console.log(`📦 [MOCK SAVE] Saving marks for ${year} ${department} ${section} - ${catType}`);
         const key = `${academicYear || '2025-2026'}-${year}-${department}-${section}-${catType}`;
         mockDb.marks[key] = { year, academicYear: academicYear || '2025-2026', department, section, catType, subjects, scores: sanitizedScores, subjectDates: subjectDates || {} };
         
-        // Persist to local file for development durability
         try {
             fs.writeFileSync(DB_PATH, JSON.stringify(mockDb, null, 2));
         } catch (e) {
@@ -79,21 +84,28 @@ router.post('/bulk-save', async (req, res) => {
     }
 
     try {
+        console.log(`🗄️ [DB SAVE] Attempting to save marks for ${year} ${department} ${section} - ${catType}`);
         let sectionDoc = await SectionMarks.findOne({ academicYear: academicYear || '2025-2026', year, department, section, catType });
         
         if (!sectionDoc) {
+            console.log("🆕 Creating new SectionMarks record");
             sectionDoc = new SectionMarks({ year, academicYear: academicYear || '2025-2026', department, section, catType, subjects, scores: sanitizedScores, subjectDates });
         } else {
+            console.log("📝 Updating existing SectionMarks record");
             sectionDoc.subjects = subjects;
             sectionDoc.scores = sanitizedScores;
             sectionDoc.subjectDates = subjectDates; 
             sectionDoc.updatedAt = Date.now();
+            // Force Mongoose to notice changes in nested Map
+            sectionDoc.markModified('scores');
+            sectionDoc.markModified('subjectDates');
         }
         
         await sectionDoc.save();
-        res.json({ message: "Successfully synchronized records", section: sectionDoc });
+        console.log("✅ Mark save successful");
+        res.json({ success: true, message: "Successfully synchronized records", section: sectionDoc });
     } catch (err) {
-        console.error("Bulk Mark Save Error:", err);
+        console.error("❌ Bulk Mark Save Error:", err);
         res.status(500).json({ success: false, message: 'Server error during save', error: err.message });
     }
 });
