@@ -119,29 +119,42 @@ const Students = () => {
         const [dept, section] = selectedDept.split(' ');
         const config = { academicYear: selectedAcademicYear, year: selectedYear, department: dept, section, catType };
         try {
+            // 1. Fetch Students
             const studentRes = await api.get('/students', { params: config });
-            setStudents(studentRes.data.students || []);
-            const marksRes = await api.get('/marks/section', { params: config });
-            
-            if (marksRes.data.data && !marksRes.data.connected) { 
-                setSubjects(marksRes.data.data.subjects || []);
-                setMarksData(marksRes.data.data.scores || {});
-                setSubjectDates(marksRes.data.data.subjectDates || {});
-            } else if (marksRes.data.marks) {
-                const marksMap = {};
-                marksRes.data.marks.forEach(m => {
-                    if (!marksMap[m.rollNumber]) marksMap[m.rollNumber] = {};
-                    marksMap[m.rollNumber][m.subjectCode] = m.marks;
-                });
-                setMarksData(marksMap);
-                setSubjectDates(marksRes.data.subjectDates || {});
-            }
+            const studentList = studentRes.data.students || [];
+            setStudents(studentList);
 
-            if (selectedYear === 'I YEAR') setSubjects(FIRST_YEAR_CSE_SUBJECTS);
-            else if (selectedYear === 'II YEAR') setSubjects(SECOND_YEAR_CSE_SUBJECTS);
-            else if (selectedYear === 'III YEAR') setSubjects(THIRD_YEAR_CSE_SUBJECTS);
-            else if (selectedYear === 'IV YEAR') setSubjects(FOURTH_YEAR_CSE_SUBJECTS);
-        } catch (err) { console.error(err); } finally { setLoading(false); }
+            // 2. Fetch Marks (Consolidated SectionMark object)
+            const marksRes = await api.get('/marks/section', { params: config });
+            const data = marksRes.data.data;
+            
+            if (data) { 
+                // Restore subjects from saved record if they were custom, otherwise use defaults
+                if (data.subjects && data.subjects.length > 0) {
+                    setSubjects(data.subjects);
+                } else {
+                    // Fallback to default subjects for the year if no custom subjects saved
+                    if (selectedYear === 'I YEAR') setSubjects(FIRST_YEAR_CSE_SUBJECTS);
+                    else if (selectedYear === 'II YEAR') setSubjects(SECOND_YEAR_CSE_SUBJECTS);
+                    else if (selectedYear === 'III YEAR') setSubjects(THIRD_YEAR_CSE_SUBJECTS);
+                    else if (selectedYear === 'IV YEAR') setSubjects(FOURTH_YEAR_CSE_SUBJECTS);
+                }
+                setMarksData(data.scores || {});
+                setSubjectDates(data.subjectDates || {});
+            } else {
+                // Initialize with default subjects if no marks record exists
+                if (selectedYear === 'I YEAR') setSubjects(FIRST_YEAR_CSE_SUBJECTS);
+                else if (selectedYear === 'II YEAR') setSubjects(SECOND_YEAR_CSE_SUBJECTS);
+                else if (selectedYear === 'III YEAR') setSubjects(THIRD_YEAR_CSE_SUBJECTS);
+                else if (selectedYear === 'IV YEAR') setSubjects(FOURTH_YEAR_CSE_SUBJECTS);
+                setMarksData({});
+                setSubjectDates({});
+            }
+        } catch (err) { 
+            console.error("Fetch Section Data Error:", err); 
+        } finally { 
+            setLoading(false); 
+        }
     };
 
     const getArrears = (rollNo) => {
@@ -218,35 +231,54 @@ const Students = () => {
                 const data = XLSX.utils.sheet_to_json(ws);
 
                 if (data.length === 0) {
-                    alert("Excel file is empty");
+                    alert("Excel file is empty or has no data rows.");
                     return;
                 }
 
-                // Expecting columns: "Reg Number", "Name", "Register Number", "Student Name"
+                console.log("📊 Raw Excel Data Sample:", data[0]);
+
+                // Advanced Column Detection: Find matching keys case-insensitively
+                const getVal = (row, possibleKeys) => {
+                    const keys = Object.keys(row);
+                    const foundKey = keys.find(k => 
+                        possibleKeys.some(pk => k.trim().toLowerCase() === pk.toLowerCase())
+                    );
+                    return foundKey ? String(row[foundKey]).trim() : '';
+                };
+
                 const formattedStudents = data.map(row => {
-                    const roll = String(row['Reg Number'] || row['Register Number'] || row['Roll Number'] || row['Roll No'] || row['rollNumber'] || row['ID'] || '').trim();
-                    const name = String(row['Name'] || row['Student Name'] || row['STUDENT NAME'] || row['NAME'] || row['name'] || '').trim().toUpperCase();
+                    const roll = getVal(row, ['Reg Number', 'Register Number', 'Roll Number', 'Roll No', 'rollNumber', 'ID', 'Reg.No', 'RegNo']);
+                    const name = getVal(row, ['Name', 'Student Name', 'STUDENT NAME', 'NAME', 'name']).toUpperCase();
                     return { rollNumber: roll, name };
                 }).filter(s => s.rollNumber && s.name);
+
+                console.log(`✅ Formatted ${formattedStudents.length} students from ${data.length} rows.`);
+
+                if (formattedStudents.length === 0) {
+                    throw new Error("No students could be mapped. Please ensure your Excel header contains 'Reg Number' and 'Name' (or similar). Found columns: " + Object.keys(data[0]).join(', '));
+                }
 
                 const [dept, section] = selectedDept.split(' ');
                 const commonInfo = { academicYear: selectedAcademicYear, year: selectedYear, department: dept, section };
 
-                await api.post('/students/bulk', { 
+                const response = await api.post('/students/bulk', { 
                     students: formattedStudents,
                     commonInfo 
                 });
 
-                setSuccess(`Successfully uploaded ${formattedStudents.length} students to ${selectedYear} ${selectedDept}`);
-                setSelectedDept(selectedDept); // Trigger refresh
-                fetchSectionData();
-                setTimeout(() => setSuccess(''), 5000);
+                if (response.data.success) {
+                    setSuccess(`Successfully uploaded ${formattedStudents.length} students to ${selectedYear} ${selectedDept}`);
+                    fetchSectionData();
+                    setTimeout(() => setSuccess(''), 5000);
+                } else {
+                    throw new Error(response.data.message || "Server rejected the bulk upload.");
+                }
             } catch (err) {
-                console.error(err);
-                alert("Error parsing Excel file. Ensure columns are named 'Reg Number' and 'Name'.");
+                console.error("❌ Excel Upload Error:", err);
+                alert(err.message || "Error parsing Excel file. Please check column names.");
             } finally {
                 setUploading(false);
-                e.target.value = ''; // Reset file input
+                if (e.target) e.target.value = ''; // Reset file input
             }
         };
         reader.readAsBinaryString(file);

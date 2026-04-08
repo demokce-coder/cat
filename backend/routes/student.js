@@ -59,31 +59,35 @@ router.post('/bulk', async (req, res) => {
             mockDb.students.push(studentData);
         });
 
-        console.log(`✅ [MOCK DB] Replaced name list for ${commonInfo.year} ${commonInfo.department} ${commonInfo.section}`);
-        return res.status(201).json({ success: true, message: 'Saved to In-Memory Store (Demo Mode)' });
+        // Persist to local file
+        const DB_PATH = './db.json';
+        try {
+            const fs = await import('fs');
+            fs.default.writeFileSync(DB_PATH, JSON.stringify(mockDb, null, 2));
+            console.log(`✅ [MOCK DB] Replaced and Persisted name list for ${commonInfo.year} ${commonInfo.department} ${commonInfo.section}`);
+        } catch (e) {
+            console.error("Student Bulk Persistence error:", e);
+        }
+
+        return res.status(201).json({ success: true, message: 'Saved to In-Memory Store & db.json (Demo Mode)' });
     }
 
     try {
-        console.log("Bulk importing students and replacing existing list for:", commonInfo);
-
-        // Delete existing students for this section before bulk-upserting
-        await Student.deleteMany({
-            year: commonInfo.year,
-            department: commonInfo.department,
-            section: commonInfo.section,
-            academicYear: commonInfo.academicYear
-        });
+        console.log("Bulk importing students for:", commonInfo);
 
         const bulkOps = students.map(s => ({
-            insertOne: {
-                document: {
-                    rollNumber: s.rollNumber,
-                    name: s.name,
-                    department: commonInfo.department,
-                    year: commonInfo.year,
-                    section: commonInfo.section,
-                    academicYear: commonInfo.academicYear
-                }
+            updateOne: {
+                filter: { rollNumber: s.rollNumber },
+                update: {
+                    $set: {
+                        name: s.name,
+                        department: commonInfo.department,
+                        year: commonInfo.year,
+                        section: commonInfo.section,
+                        academicYear: commonInfo.academicYear
+                    }
+                },
+                upsert: true
             }
         }));
 
@@ -98,6 +102,18 @@ router.post('/bulk', async (req, res) => {
 });
 
 router.post('/', async (req, res) => {
+    const { dbStatus, mockDb } = req.app.locals;
+    
+    if (!dbStatus.connected) {
+        const newStudent = { ...req.body, _id: `mock_stud_${Date.now()}` };
+        mockDb.students.push(newStudent);
+        try {
+            const fs = await import('fs');
+            fs.default.writeFileSync('./db.json', JSON.stringify(mockDb, null, 2));
+        } catch (e) {}
+        return res.status(201).json({ success: true, student: newStudent });
+    }
+
     try {
         const student = new Student(req.body);
         await student.save();
@@ -108,6 +124,17 @@ router.post('/', async (req, res) => {
 });
 
 router.delete('/:id', async (req, res) => {
+    const { dbStatus, mockDb } = req.app.locals;
+
+    if (!dbStatus.connected) {
+        mockDb.students = mockDb.students.filter(s => s._id !== req.params.id);
+        try {
+            const fs = await import('fs');
+            fs.default.writeFileSync('./db.json', JSON.stringify(mockDb, null, 2));
+        } catch (e) {}
+        return res.json({ success: true, message: 'Student deleted (Demo Mode)' });
+    }
+
     try {
         await Student.findByIdAndDelete(req.params.id);
         res.json({ success: true, message: 'Student deleted' });
