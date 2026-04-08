@@ -1,16 +1,61 @@
-# React + Vite
+# College Assessment Tracking (CAT) Portal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A professional MERN stack application for managing Continuous Assessment Test (CAT) marks at King's College of Engineering.
 
-Currently, two official plugins are available:
+## 🚀 Key Features
+- **Assessment Grid**: Bulk entry of marks with roll number ranges and subject management.
+- **Individual Report**: Subject-wise mark entry for staff.
+- **Analytics & Insights**: Performance visualization and fail distribution analysis.
+- **Search Portal**: Student result search by Reg Number or Name.
+- **Role-Based Access**: Specialized views for HOD, Staff, and Students.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Project Structure
+- `/src`: Frontend React application (built with Vite).
+- `/backend`: Node.js/Express backend API.
+- `/backend/models`: Mongoose database schemas.
+- `/backend/routes`: API endpoint handlers.
 
-## React Compiler
+## ⚙️ Setup Instructions
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 1. Backend Configuration
+Navigate to the `backend` folder and create a `.env` file with the following variables:
+```env
+PORT=5000
+MONGODB_URI=your_mongodb_atlas_connection_string
+JWT_SECRET=your_secret_key
+NODE_ENV=development
+```
 
-## Expanding the ESLint configuration
+### 2. Installation
+Run the following commands in the root directory:
+```bash
+# Install frontend dependencies
+npm install
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Install backend dependencies
+cd backend
+npm install
+```
+
+### 3. Running the Application
+Open two terminals:
+
+**Terminal 1 (Backend):**
+```bash
+cd backend
+npm run dev
+```
+
+**Terminal 2 (Frontend):**
+```bash
+npm run dev
+```
+
+### 🔍 Database Initialization
+Upon completion of the first backend run with a valid `MONGODB_URI`, the system will automatically:
+1. Create a default HOD account (`hod@kce.edu` / `Admin@123`).
+2. Seed the CSE Department subjects.
+3. Seed the initial student name list for II and III Year.
+
+## 📦 Persistence
+The application uses **MongoDB Atlas** for primary storage. It also includes an **Offline Demo Mode** using `db.json` as a fallback if the database connection fails.
