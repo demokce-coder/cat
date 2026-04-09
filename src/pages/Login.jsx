@@ -9,7 +9,7 @@ const Login = () => {
     const [rememberMe, setRememberMe] = useState(false);
     const [showPassword, setShowPassword] = useState(false);
     const [loading, setLoading] = useState(false);
-    const [error, setError] = useState('');
+    const [error, septError] = useState('');
     const { login } = useAuth();
     const navigate = useNavigate();
 
@@ -17,8 +17,8 @@ const Login = () => {
 
     // Clear fields when toggling tabs
     useEffect(() => {
-        setEmail('');
-        setPassword('');
+        setEmail('staff@kce.edu');
+        setPassword('STAFF@CSE');
         setError('');
     }, [loginType]);
 
