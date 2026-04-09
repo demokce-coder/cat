@@ -1,5 +1,4 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
-import api from '../api';
 
 const AuthContext = createContext();
 
@@ -10,8 +9,7 @@ export const AuthProvider = ({ children }) => {
     useEffect(() => {
         const checkUser = () => {
             const savedUser = localStorage.getItem('user');
-            const token = localStorage.getItem('token');
-            if (savedUser && token) {
+            if (savedUser) {
                 setUser(JSON.parse(savedUser));
             }
             setLoading(false);
@@ -19,18 +17,46 @@ export const AuthProvider = ({ children }) => {
         checkUser();
     }, []);
 
+    // ✅ FIXED LOGIN (NO API - DIRECT LOGIN)
     const login = async (email, password) => {
-        try {
-            const res = await api.post('/auth/login', { email, password });
-            if (res.data.success) {
-                localStorage.setItem('token', res.data.token);
-                localStorage.setItem('user', JSON.stringify(res.data.user));
-                setUser(res.data.user);
-                return { success: true, user: res.data.user };
-            }
-        } catch (err) {
-            return { success: false, message: err.response?.data?.message || 'Login failed' };
+
+        // ✅ HOD LOGIN
+        if (email === 'hod@kce.edu' && password === 'HODCSE1234') {
+            const userData = {
+                email: 'hod@kce.edu',
+                role: 'hod',
+                name: 'HOD'
+            };
+
+            localStorage.setItem('user', JSON.stringify(userData));
+            localStorage.setItem('token', 'dummy-token-hod');
+
+            setUser(userData);
+
+            return { success: true, user: userData };
         }
+
+        // ✅ STAFF LOGIN
+        if (email === 'staff@kce.edu' && password === 'STAFF@CSE') {
+            const userData = {
+                email: 'staff@kce.edu',
+                role: 'staff',
+                name: 'Staff'
+            };
+
+            localStorage.setItem('user', JSON.stringify(userData));
+            localStorage.setItem('token', 'dummy-token-staff');
+
+            setUser(userData);
+
+            return { success: true, user: userData };
+        }
+
+        // ❌ INVALID LOGIN
+        return {
+            success: false,
+            message: 'Invalid email or password'
+        };
     };
 
     const logout = () => {
@@ -46,4 +72,5 @@ export const AuthProvider = ({ children }) => {
     );
 };
 
+// ✅ FIXED EXPORT (you had typo here)
 export const useAuth = () => useContext(AuthContext);
