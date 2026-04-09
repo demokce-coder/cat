@@ -24,7 +24,7 @@ router.post('/', async (req, res) => {
     if (!dbStatus.connected) {
         const newSubject = { name, code, shortName, year, department, _id: `mock_sub_${Date.now()}` };
         mockDb.subjects.push(newSubject);
-        
+
         // Persist to local file
         const DB_PATH = './db.json';
         try {
@@ -33,7 +33,7 @@ router.post('/', async (req, res) => {
         } catch (e) {
             console.error("Subject Persistence error:", e);
         }
-        
+
         return res.status(201).json({ success: true, subject: newSubject, message: 'Saved to In-Memory Store (Demo Mode)' });
     }
 
@@ -53,14 +53,14 @@ router.put('/:id', async (req, res) => {
     if (!dbStatus.connected) {
         const index = mockDb.subjects.findIndex(s => s._id === req.params.id);
         if (index === -1) return res.status(404).json({ success: false, message: 'Subject not found' });
-        
+
         mockDb.subjects[index] = { ...mockDb.subjects[index], name, code, shortName, year, department };
-        
+
         try {
             const fs = await import('fs');
             fs.default.writeFileSync('./db.json', JSON.stringify(mockDb, null, 2));
-        } catch (e) {}
-        
+        } catch (e) { }
+
         return res.json({ success: true, subject: mockDb.subjects[index] });
     }
 
@@ -80,7 +80,7 @@ router.delete('/:id', async (req, res) => {
         try {
             const fs = await import('fs');
             fs.default.writeFileSync('./db.json', JSON.stringify(mockDb, null, 2));
-        } catch (e) {}
+        } catch (e) { }
         return res.json({ success: true, message: 'Subject deleted (Demo Mode)' });
     }
 

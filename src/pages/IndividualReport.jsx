@@ -3,10 +3,22 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { 
     FileText, User, Save, BookOpen, 
     Calendar, ChevronDown, CheckCircle, Database, Search, 
-    ChevronRight, CreditCard, ClipboardList
+    ChevronRight, CreditCard, ClipboardList, Table, FileSpreadsheet, Download
 } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 import api from '../api';
+import jsPDF from 'jspdf';
+import autoTable from 'jspdf-autotable';
+import * as XLSX from 'xlsx';
+
+const STAFF_LIST = [
+    "Ms. S. Priyadharshini", "Ms. K. Pappathi", "Mrs. R. Aruna", "Mr. S. Balakrishnan",
+    "Mr. M. Arun", "Ms. R. Shantha Sheela", "Dr. S. M. Uma", "Ms. K. Suganthi",
+    "Ms. N. Dhamayandhi", "Ms. K. Srividhya", "Dr. P. Nadimuthu",
+    "Ms. M. Kavitha", "Ms. J. Janani", "Mr. P. Balamurugan", "Dr. K. Abhirami",
+    "Ms. K. Abinaya", "Ms. S. Abikail Aarthi", "Ms. A. Shanthi", "Dr. S. Kannan",
+    "Ms. E. Priyadharshini", "Dr. S. Rajarajan", "Ms. K. Saranya", "Ms. K. Madhumitha"
+].sort();
 
 const IndividualReport = () => {
     const { user } = useAuth();
@@ -24,6 +36,7 @@ const IndividualReport = () => {
     const [selectedDept, setSelectedDept] = useState(() => localStorage.getItem('CAT_ind_Dept') || "CSE B");
     const [catType, setCatType] = useState(() => localStorage.getItem('CAT_ind_catType') || 'CAT - I');
     const [selectedSubject, setSelectedSubject] = useState(null);
+    const [selectedStaff, setSelectedStaff] = useState(() => localStorage.getItem('CAT_ind_Staff') || STAFF_LIST[0]);
     const [examDate, setExamDate] = useState('');
 
     const [students, setStudents] = useState([]);
@@ -39,7 +52,8 @@ const IndividualReport = () => {
         localStorage.setItem('CAT_ind_Year', selectedYear);
         localStorage.setItem('CAT_ind_Dept', selectedDept);
         localStorage.setItem('CAT_ind_catType', catType);
-    }, [selectedAcademicYear, selectedYear, selectedDept, catType]);
+        localStorage.setItem('CAT_ind_Staff', selectedStaff);
+    }, [selectedAcademicYear, selectedYear, selectedDept, catType, selectedStaff]);
 
     // Fetch subjects when Year changes
     useEffect(() => {
@@ -117,24 +131,20 @@ const IndividualReport = () => {
         const config = { academicYear: selectedAcademicYear, year: selectedYear, department: dept, section, catType };
 
         try {
-            // Prepare updated scores object by merging with existing data
             const updatedScores = existingSectionData?.scores ? { ...existingSectionData.scores } : {};
             const updatedDates = existingSectionData?.subjectDates ? { ...existingSectionData.subjectDates } : {};
             const updatedSubjectsList = existingSectionData?.subjects ? [...existingSectionData.subjects] : [];
 
-            // Add/Update current subject in the subjects list if not there
             const subExists = updatedSubjectsList.find(s => s.code === selectedSubject.code);
             if (!subExists) {
                 updatedSubjectsList.push(selectedSubject);
             }
 
-            // Sync current marks into the big scores map
             Object.keys(marksData).forEach(roll => {
                 if (!updatedScores[roll]) updatedScores[roll] = {};
                 updatedScores[roll][selectedSubject.code] = marksData[roll].toUpperCase();
             });
 
-            // Sync date
             if (examDate) {
                 updatedDates[selectedSubject.code] = examDate;
             }
@@ -153,13 +163,145 @@ const IndividualReport = () => {
                 throw new Error(response.data.message || "Server refused to save data.");
             }
             
-            // Refresh local state
             fetchSectionData();
         } catch (err) {
             alert(err.message || "Failed to save marks");
         } finally {
             setLoading(false);
         }
+    };
+
+    const generatePDF = async () => {
+        if (!selectedSubject || students.length === 0) return alert("Insufficient data for PDF");
+        
+        const doc = new jsPDF('p', 'mm', 'a4');
+        const pageWidth = doc.internal.pageSize.getWidth();
+        const margin = 10;
+
+        const drawHeader = async (isFirst) => {
+            if (isFirst) {
+                try {
+                    const response = await fetch('/images.jpg');
+                    const blob = await response.blob();
+                    const base64Logo = await new Promise((resolve) => {
+                        const reader = new FileReader();
+                        reader.onloadend = () => resolve(reader.result);
+                        reader.readAsDataURL(blob);
+                    });
+                    doc.addImage(base64Logo, 'JPEG', margin, 8, 22, 22);
+                } catch (e) {}
+
+                doc.setFont('helvetica', 'bold');
+                doc.setFontSize(14);
+                doc.setTextColor(15, 40, 100);
+                doc.text('KINGS', 37, 14);
+                doc.setFontSize(9);
+                doc.text('COLLEGE OF ENGINEERING', 37, 18);
+                doc.setFont('helvetica', 'normal');
+                doc.setFontSize(7.5);
+                doc.setTextColor(60, 60, 60);
+                doc.text('(AUTONOMOUS)', 37, 22);
+
+                doc.setFontSize(6.5);
+                const accX = 135;
+                doc.text('Approved by AICTE, New Delhi', accX, 12);
+                doc.text('Affiliated to Anna University, Chennai', accX, 15.5);
+                doc.text('Recognized under 2(f) & 12B, UGC', accX, 19);
+                doc.text('NAAC Accredited Institution', accX, 22.5);
+
+                doc.setDrawColor(0);
+                doc.setLineWidth(0.5);
+                doc.line(margin, 32, pageWidth - margin, 32);
+
+                doc.setFont('helvetica', 'bold');
+                doc.setFontSize(10);
+                doc.setTextColor(0);
+                doc.text('Department of Computer Science and Engineering', pageWidth / 2, 38, { align: 'center' });
+                doc.setFontSize(8.5);
+                doc.text(`Academic Year ${selectedAcademicYear} / Even Semester`, pageWidth / 2, 43, { align: 'center' });
+                doc.text(`Continuous Assessment Test – ${catType}`, pageWidth / 2, 48, { align: 'center' });
+
+                doc.setFont('helvetica', 'normal');
+                doc.setFontSize(8.5);
+                doc.text(`Year/ Sem   : ${selectedYear}-CSE- ${selectedDept.split(' ')[1]} /VI`, margin, 55);
+                doc.text(`Subject Coordinator : ${selectedStaff}`, margin, 60);
+                doc.text(`Exam Date : ${examDate || '-'}`, 125, 55);
+                
+                // Shift subject name slightly and handle long strings
+                const subText = `Subject: ${selectedSubject.name} (${selectedSubject.code})`;
+                doc.text(doc.splitTextToSize(subText, 75), 125, 60); 
+            }
+        };
+
+        await drawHeader(true);
+
+        const body = students.map((s, idx) => [
+            idx + 1,
+            s.rollNumber,
+            s.name.toUpperCase(),
+            marksData[s.rollNumber] || '-'
+        ]);
+
+        autoTable(doc, {
+            startY: 65,
+            head: [['S.No', 'Reg.No', 'Student Name', 'Marks (50)']],
+            body: body,
+            theme: 'grid',
+            headStyles: { fillColor: 255, textColor: 0, fontSize: 7, fontStyle: 'bold', lineWidth: 0.1, lineColor: 0, halign: 'center' },
+            styles: { fontSize: 7.5, cellPadding: 1.2, lineWidth: 0.1, lineColor: 0, halign: 'center', textColor: 0 },
+            columnStyles: { 0: { cellWidth: 15 }, 1: { cellWidth: 35 }, 2: { halign: 'left' }, 3: { cellWidth: 30 } },
+            margin: { left: margin, right: margin }
+        });
+
+        let curY = doc.lastAutoTable.finalY + 10;
+        if (curY > 250) { doc.addPage(); await drawHeader(false); curY = 20; }
+
+        doc.setFont('helvetica', 'bold');
+        doc.setFontSize(8);
+        doc.text('Subject-Wise Performance Analysis', margin, curY);
+        curY += 4;
+
+        // Stats
+        const appeared = students.filter(s => marksData[s.rollNumber] && marksData[s.rollNumber] !== 'AB' && marksData[s.rollNumber] !== '').length;
+        const passed = students.filter(s => {
+            const m = marksData[s.rollNumber];
+            return m && m !== 'AB' && !isNaN(parseFloat(m)) && parseFloat(m) >= 25;
+        }).length;
+        const failed = appeared - passed;
+        const passPct = appeared > 0 ? ((passed / appeared) * 100).toFixed(1) : '0.0';
+
+        autoTable(doc, {
+            startY: curY,
+            head: [['Subject Name', 'Total Appeared', 'Passed', 'Failed', 'Pass %']],
+            body: [[selectedSubject.name, appeared, passed, failed, `${passPct}%`]],
+            theme: 'grid',
+            headStyles: { fillColor: 255, textColor: 0, fontSize: 7, fontStyle: 'bold', lineWidth: 0.1, lineColor: 0, halign: 'center' },
+            styles: { fontSize: 7.5, cellPadding: 1.2, lineWidth: 0.1, lineColor: 0, halign: 'center', textColor: 0 },
+            margin: { left: margin, right: margin }
+        });
+
+        curY = doc.lastAutoTable.finalY + 18;
+        if (curY > 275) { doc.addPage(); await drawHeader(false); curY = 20; }
+        
+        doc.setFontSize(8);
+        doc.text('Subject Coordinator', margin, curY);
+        doc.text('HoD/CSE', pageWidth / 2, curY, { align: 'center' });
+        doc.text('Principal', pageWidth - margin, curY, { align: 'right' });
+
+        doc.save(`KCE_Individual_Report_${selectedSubject.code}_${selectedDept.replace(' ','_')}.pdf`);
+    };
+
+    const generateExcel = () => {
+        if (!selectedSubject || students.length === 0) return alert("Insufficient data for Excel");
+        const data = students.map(s => ({
+            "Reg Number": s.rollNumber,
+            "Name": s.name.toUpperCase(),
+            "Marks": marksData[s.rollNumber] || '0'
+        }));
+        const ws = XLSX.utils.json_to_sheet(data);
+        const wb = XLSX.utils.book_new();
+        XLSX.utils.book_append_sheet(wb, ws, "Marks");
+        XLSX.writeFile(wb, `KCE_${selectedSubject.code}_Report.xlsx`);
     };
 
     if (user?.role === 'student') {
@@ -175,7 +317,7 @@ const IndividualReport = () => {
     }
 
     return (
-        <div className="space-y-6 max-w-[1200px] mx-auto">
+        <div className="space-y-6 max-w-[1300px] mx-auto pb-20">
             {/* Header / Filter Section */}
             <div className="bg-white p-8 rounded-[2.5rem] shadow-sm border border-slate-200 flex flex-wrap items-center gap-8 relative overflow-hidden">
                 <div className="flex-1 min-w-[300px]">
@@ -214,12 +356,26 @@ const IndividualReport = () => {
 
                 <div className="flex flex-wrap items-center gap-4">
                     <div className="flex flex-col gap-1">
+                        <span className="text-[10px] font-black uppercase text-slate-400 ml-1">Select Staff</span>
+                        <div className="relative">
+                            <select 
+                                value={selectedStaff} 
+                                onChange={(e) => setSelectedStaff(e.target.value)}
+                                className="pl-4 pr-10 py-3 bg-slate-50 border border-slate-200 rounded-2xl text-[11px] font-black uppercase italic text-blue-600 appearance-none focus:ring-2 focus:ring-blue-100 focus:border-blue-400 outline-none w-52"
+                            >
+                                {STAFF_LIST.map(name => <option key={name} value={name}>{name}</option>)}
+                            </select>
+                            <ChevronDown className="absolute right-4 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400 pointer-events-none" />
+                        </div>
+                    </div>
+
+                    <div className="flex flex-col gap-1">
                         <span className="text-[10px] font-black uppercase text-slate-400 ml-1">Select Subject</span>
                         <div className="relative">
                             <select 
                                 value={selectedSubject?.code || ''} 
                                 onChange={(e) => setSelectedSubject(availableSubjects.find(s => s.code === e.target.value))}
-                                className="pl-4 pr-10 py-3 bg-slate-50 border border-slate-200 rounded-2xl text-xs font-black uppercase italic text-blue-600 appearance-none focus:ring-2 focus:ring-blue-100 focus:border-blue-400 outline-none w-64"
+                                className="pl-4 pr-10 py-3 bg-slate-50 border border-slate-200 rounded-2xl text-[11px] font-black uppercase italic text-blue-600 appearance-none focus:ring-2 focus:ring-blue-100 focus:border-blue-400 outline-none w-64"
                             >
                                 {availableSubjects.length === 0 && <option value="">No Subjects Found</option>}
                                 {availableSubjects.map(s => (
@@ -237,17 +393,15 @@ const IndividualReport = () => {
                             placeholder="DD.MM.YY"
                             value={examDate}
                             onChange={(e) => setExamDate(e.target.value)}
-                            className="px-4 py-3 bg-slate-50 border border-slate-200 rounded-2xl text-xs font-black uppercase text-center text-blue-600 outline-none w-32 focus:ring-2 focus:ring-blue-100"
+                            className="px-4 py-3 bg-slate-50 border border-slate-200 rounded-2xl text-[11px] font-black uppercase text-center text-blue-600 outline-none w-32 focus:ring-2 focus:ring-blue-100"
                         />
                     </div>
 
-                    <button 
-                        onClick={handleSave} 
-                        disabled={loading || !selectedSubject}
-                        className="mt-5 p-4 bg-blue-600 text-white rounded-2xl shadow-lg shadow-blue-500/20 hover:bg-blue-700 active:scale-95 transition-all disabled:opacity-50"
-                    >
-                        <Save className="w-6 h-6" />
-                    </button>
+                    <div className="flex gap-2 mt-5">
+                        <button onClick={generatePDF} className="p-4 bg-white border border-slate-200 text-red-600 rounded-2xl hover:bg-slate-50 shadow-sm transition-all"><FileText className="w-5 h-5" /></button>
+                        <button onClick={generateExcel} className="p-4 bg-white border border-slate-200 text-green-600 rounded-2xl hover:bg-slate-50 shadow-sm transition-all"><Table className="w-5 h-5" /></button>
+                        <button onClick={handleSave} disabled={loading || !selectedSubject} className="p-4 bg-blue-600 text-white rounded-2xl shadow-lg shadow-blue-500/20 hover:bg-blue-700 active:scale-95 transition-all disabled:opacity-50"><Save className="w-5 h-5" /></button>
+                    </div>
                 </div>
             </div>
 
@@ -281,7 +435,7 @@ const IndividualReport = () => {
                                         <td className="px-6 py-4 text-[11px] font-black uppercase italic text-slate-800">{s.name}</td>
                                         <td className="px-6 py-4 text-center bg-blue-50/30">
                                             <input 
-                                                className={`ind-mark-input w-24 mx-auto text-center text-lg font-black italic bg-white border-2 border-slate-100 rounded-xl py-2 outline-none focus:border-blue-500 focus:ring-4 focus:ring-blue-100 transition-all ${marksData[s.rollNumber] === 'AB' || (marksData[s.rollNumber] && parseFloat(marksData[s.rollNumber]) < 25) ? 'text-red-600' : 'text-slate-800'}`}
+                                                className={`ind-mark-input w-24 mx-auto text-center text-lg font-black italic bg-white border-2 rounded-xl py-2 outline-none focus:border-blue-500 focus:ring-4 focus:ring-blue-100 transition-all ${marksData[s.rollNumber] === 'AB' ? 'text-red-600 border-red-500 bg-red-50/50' : (marksData[s.rollNumber] && parseFloat(marksData[s.rollNumber]) < 25) ? 'text-red-600 border-slate-100' : 'text-slate-800 border-slate-100'}`}
                                                 value={marksData[s.rollNumber] || ''}
                                                 placeholder="--"
                                                 onChange={(e) => {

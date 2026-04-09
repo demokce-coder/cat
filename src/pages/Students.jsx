@@ -480,11 +480,17 @@ const Students = () => {
         });
 
         // ────────────────────────────────────────
-        // SUMMARY SECTION — always on a new page
+        // SUMMARY SECTION — Continuous Flow
         // ────────────────────────────────────────
-        doc.addPage();
+        let curY = doc.lastAutoTable.finalY + 15;
 
-        let curY = 15;
+        // Check for page overflow before drawing summary title
+        if (curY > 260) {
+            doc.addPage();
+            await drawHeader(false);
+            curY = 45; // Start safely after header
+        }
+
 
         // ── Table 1: No. of Subjects Failed distribution ──
         const maxArrears = subjects.length;
@@ -521,7 +527,7 @@ const Students = () => {
         const subjectRows = subjects.map((sub, idx) => {
             const appeared = exportStudents.filter(s => {
                 const m = exportMarks[s.rollNumber]?.[sub.code];
-                return m !== undefined && m !== '-' && m !== '';
+                return m !== undefined && m !== '-' && m !== '' && m !== 'AB';
             }).length;
             const passed = exportStudents.filter(s => {
                 const m = exportMarks[s.rollNumber]?.[sub.code];
@@ -534,7 +540,7 @@ const Students = () => {
                 sub.code,
                 sub.name,
                 STAFF_MAP[sub.code] || '-',
-                appeared || exportStudents.length,
+                appeared,
                 passed,
                 failed,
                 passPercent,
@@ -570,17 +576,33 @@ const Students = () => {
         curY = doc.lastAutoTable.finalY + 6;
 
         // ── Overall pass % ──
+        // Only include students who appeared for at least one subject in the denominator
+        const appearingStudents = exportStudents.filter(s => {
+            return subjects.some(sub => {
+                const m = exportMarks[s.rollNumber]?.[sub.code];
+                return m !== undefined && m !== '-' && m !== '' && m !== 'AB';
+            });
+        });
+
         const allClear = exportStudents.filter(s => getArrears(s.rollNumber) === 0).length;
-        const overallPassPct = exportStudents.length > 0
-            ? ((allClear / exportStudents.length) * 100).toFixed(2)
+        const totalCount = appearingStudents.length;
+        const overallPassPct = totalCount > 0
+            ? ((allClear / totalCount) * 100).toFixed(2)
             : '0.00';
+
+        if (curY > 250) {
+            doc.addPage();
+            await drawHeader(false);
+            curY = 45;
+        }
 
         doc.setFont('helvetica', 'bold');
         doc.setFontSize(9);
         doc.text(`Overall Pass % = ${overallPassPct}%`, pageWidth / 2, curY + 6, { align: 'center' });
 
         // ── Signature line ──
-        const sigY = curY + 22;
+        const sigY = curY + 25;
+
         doc.setFontSize(9);
         doc.text('Class Coordinator', margin, sigY);
         doc.text('HoD/CSE', pageWidth / 2, sigY, { align: 'center' });
@@ -761,7 +783,7 @@ const Students = () => {
                                             const val = marksData[s.rollNumber]?.[sub.code] || '';
                                             return (
                                                 <td key={sIdx} className="px-1 py-3 border-l border-slate-50 text-center w-24">
-                                                    <input className={`mark-input w-full text-center text-[12px] font-black italic bg-transparent outline-none ${val === 'AB' || (val && parseFloat(val) < 25) ? 'text-red-600' : 'text-slate-800'}`} value={val} placeholder="--" onChange={(e) => {
+                                                    <input className={`mark-input w-full text-center text-[12px] font-black italic bg-transparent border rounded-md outline-none transition-all ${val === 'AB' ? 'text-red-700 border-red-500 bg-red-50' : (val && parseFloat(val) < 25) ? 'text-red-600 border-transparent' : 'text-slate-800 border-transparent'}`} value={val} placeholder="--" onChange={(e) => {
                                                         let inputVal = e.target.value.toUpperCase();
                                                         
                                                         // Stricter Validation: Only allow "AB", "A" (prefix), or valid numbers 0-50

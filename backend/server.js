@@ -505,10 +505,15 @@ const connectDB = async () => {
 app.locals.mockDb = mockDb;
 app.locals.dbStatus = dbStatus;
 
-// Start server
-const PORT = process.env.PORT || 5000; 
-app.listen(PORT, '0.0.0.0', () => {
-    console.log(`🚀 KCE Server Securely Running on Port ${PORT}`);
-    connectDB(); // Call connectDB here
-});
+// Export for Vercel
+export default app;
+
+// Start server only if run directly (not as a module)
+if (import.meta.url === `file://${path.resolve(process.argv[1])}`) {
+    const PORT = process.env.PORT || 5000;
+    app.listen(PORT, '0.0.0.0', () => {
+        console.log(`🚀 KCE Server Securely Running on Port ${PORT}`);
+        connectDB(); 
+    });
+}
 
